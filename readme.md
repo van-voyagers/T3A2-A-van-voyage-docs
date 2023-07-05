@@ -125,9 +125,11 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ## User Stories:
 
-### **User Personas**
+
 
 User personas are included to consider the different ways or approaches different users may take to using the website.
+
+<details><summary>### User Personas</summary>
 
 - **Potential user (AKA: unregistered user, “browsing” user)**
 
@@ -178,7 +180,9 @@ User personas are included to consider the different ways or approaches differen
     - Vanessa: Business partner / 38
         - Wants to be able to view relevant details of all registered users, as well as the ability to delete bot/spam user accounts.
 
-### **User Stories**
+</details>
+
+### User Stories
 
 *User stories may contain ~~strikethroughs~~, indicating minor revision.*
 
@@ -198,7 +202,7 @@ Definition of done:
 
 - ‘Ultimately, the user story is considered complete when…’
 
-## **Potential User:**
+### **Potential User:**
 
 Story 1:
 
@@ -259,7 +263,7 @@ Definition of done:
 
 - Reviews are displayed and external business links (eg. ~~Instagram~~).
 
-## **Registered User**
+### **Registered User**
 
 Story 1:
 
@@ -339,7 +343,7 @@ Definition of done:
 
 - Users can log out.
 
-## **Business User (Admin User)**
+### **Business User (Admin User)**
 
 *(Business/Admin User to have same user story as Registered User stories 1 & 5 (logging in and out))*
 
