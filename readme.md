@@ -129,7 +129,9 @@ While the application will be designed with ease of use in mind, it will cater t
 
 User personas are included to consider the different ways or approaches different users may take to using the website.
 
-<details><summary>### User Personas</summary>
+<details><summary><h3>User Personas</h3></summary>
+
+<details><summary>Potential User</summary>
 
 - **Potential user (AKA: unregistered user, “browsing” user)**
 
@@ -153,6 +155,10 @@ User personas are included to consider the different ways or approaches differen
         - ~~Wants to check out the legitimacy of the site (instagram carousel, reviews)~~
             - *Legitimacy may be checked via contact information, reviews added to “Jeremiah” user story. Instagram carousel removed from MVP and is considered as a N2H.*
 
+</details>
+
+<details><summary>Registered User</summary>
+
 - **Registered User (AKA: existing user, returning user)**
 
     - Jarrod: Plumber / 32
@@ -173,12 +179,18 @@ User personas are included to consider the different ways or approaches differen
         - ~~Has a very busy schedule and is fairly disorganised. Wants to receive booking confirmation with dates and all relevant information so that she can forward it to her assistant (to block her calendar? idk haha) without little interference.~~
             - Not in current MVP, email notification moved to N2H.
 
-- **Business User (AKA: admin user, vendor)**
+</details>
+
+<details><summary>Admin User</summary>
+
+- **Admin User (AKA: business user, vendor)**
 
     - Vance: Business owner / 38
         - Wants to be able to add, edit and delete vans and their details (including pricing, image, description, availability, etc.) from the fleet that is available on the site.
     - Vanessa: Business partner / 38
         - Wants to be able to view relevant details of all registered users, as well as the ability to delete bot/spam user accounts.
+
+</details>
 
 </details>
 
