@@ -125,11 +125,12 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ## User Stories:
 
-## **USER PERSONAS**
+### **User Personas**
 
 User personas are included to consider the different ways or approaches different users may take to using the website.
 
 - **Potential user (AKA: unregistered user, “browsing” user)**
+
     - Melanie: Retiree / 62
         - Not very technologically savvy. Needs a clear way to browse available vans and instructions on how to book.
     - Jack: Student / 22
@@ -140,14 +141,18 @@ User personas are included to consider the different ways or approaches differen
         - Wishes to compare the pricing of hiring a van as they are tossing up between a few different rental options.
     - Jeremiah: Arborist / 29
         - Wants to find contact information so that they can call or email the business with further, specific questions as well as confirm the legitimacy of the site. Wants to be able to check reviews as a way of finding out more about the business from the customer’s perspective.
+
 - The following “potential user” personas were removed with the **first** iteration of revised user stories:
+
     - ~~Jill: Mum / 35~~
         - ~~Wishes to browse vans so that she can see if there is a van available that will be suited for her, her partner, and her 18 month old baby.~~
             - *The user story for “Jack” meets the same requirements of the user being able to view the van description. The current version of MVP does not include additional extras (such as baby seats or bedding).*
     - ~~Jay: Film director / 29~~
         - ~~Wants to check out the legitimacy of the site (instagram carousel, reviews)~~
             - *Legitimacy may be checked via contact information, reviews added to “Jeremiah” user story. Instagram carousel removed from MVP and is considered as a N2H.*
+
 - **Registered User (AKA: existing user, returning user)**
+
     - Jarrod: Plumber / 32
         - Wants to be able to compare pricing and availability of dates that are available for booking, to plan their week off from work.
     - Jared: Sparkie / 33
@@ -156,20 +161,24 @@ User personas are included to consider the different ways or approaches differen
         - Wants to post a review after her experience with the business
     - John: Student / 25
         - Wants to have some control over their profile settings and to be able to view and manage their current bookings
+
 - The following “registered user” personas were removed with the **first** iteration of revised user stories:
+
     - ~~Greg: Tutor / 41~~
         - ~~Has previously registered but has forgotten their password. Wants to recover their password.~~
             - Not in current MVP.
     - ~~Julie: CEO / 49~~
         - ~~Has a very busy schedule and is fairly disorganised. Wants to receive booking confirmation with dates and all relevant information so that she can forward it to her assistant (to block her calendar? idk haha) without little interference.~~
             - Not in current MVP, email notification moved to N2H.
+
 - **Business User (AKA: admin user, vendor)**
+
     - Vance: Business owner / 38
         - Wants to be able to add, edit and delete vans and their details (including pricing, image, description, availability, etc.) from the fleet that is available on the site.
     - Vanessa: Business partner / 38
         - Wants to be able to view relevant details of all registered users, as well as the ability to delete bot/spam user accounts.
 
-## **USER STORIES**
+### **User Stories**
 
 *User stories may contain ~~strikethroughs~~, indicating minor revision.*
 
@@ -179,7 +188,7 @@ User personas are included to consider the different ways or approaches differen
 
 Story #:
 
-*As a [persona], I want to [__], so that [__].*
+*As a [ persona ], I want to [ __ ], so that [ __ ].*
 
 Acceptance Criteria:
 
@@ -205,6 +214,7 @@ Definition of done:
 
 - A user is able to browse vans without any required authentication.
 
+
 Story 2:
 
 *As a potential user, I want to be able to navigate the website easily, so that I may understand more about the business.*
@@ -218,6 +228,7 @@ Acceptance Criteria:
 Definition of done:
 
 - The website adheres to UI/UX and accessibility principles. The content displayed is readable and intuitive.
+
 
 Story 3:
 
@@ -268,6 +279,7 @@ Definition of done:
 
 - Users can log in.
 
+
 Story 2:
 
 *As a registered user, I want to be able to book a van between certain dates, so that I can hire the van for the selected timeframe.*
@@ -283,6 +295,7 @@ Definition of done:
 
 - User can book their desired van, checking the availability by date. ~~User to receive information confirmation~~. User’s “Upcoming Trips” (under bookings) section in Account page to reflect newly added booking. Information to be updated in the database.
 
+
 Story 3:
 
 *As a registered user, I want to be able to update my personal information, so that it may reflect any changes I make to my address, email, etc.*
@@ -295,6 +308,7 @@ Acceptance Criteria:
 Definition of done:
 
 - User can update their personal information, with the user’s information in the database reflecting the change.
+
 
 Story 4:
 
@@ -309,6 +323,7 @@ Acceptance Criteria:
 Definition of done:
 
 - User can view their bookings from the account page. User can manage or has instruction on how to manage their bookings. Bookings to display relevant information.
+
 
 Story 5:
 
@@ -342,6 +357,7 @@ Acceptance Criteria:
 Definition of done:
 
 - Admin user has full CRUD over objects within the database, with changes made updating in the front end.
+
 
 The following user story has been removed during the **first** iteration of the User stories (Email confirmation moved to N2H):
 
