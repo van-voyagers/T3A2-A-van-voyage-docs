@@ -125,9 +125,25 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ## User Stories:
 
+*User stories may contain ~~strikethroughs~~, indicating revision.*
 
+**Format:**
+
+Story #:
+
+*As a [ persona ], I want to [ __ ], so that [ __ ].*
+
+Acceptance Criteria:
+
+- Requirements to complete a user story.
+
+Definition of done:
+
+- ‘Ultimately, the user story is considered complete when…’
 
 User personas are included to consider the different ways or approaches different users may take to using the website.
+
+Click the dropdowns below to view user stories and user personas.
 
 <details><summary><h3>User Personas</h3></summary>
 
@@ -194,25 +210,7 @@ User personas are included to consider the different ways or approaches differen
 
 </details>
 
-### User Stories
-
-*User stories may contain ~~strikethroughs~~, indicating minor revision.*
-
-***First** iteration of user stories is largely related to changes in MVP and N2H (i.e, Bookings managed through account panel, moving of email confirmation to N2H (due to booking panel containing relevant information), instagram carousel as N2H rather than MVP.)*
-
-**Format:**
-
-Story #:
-
-*As a [ persona ], I want to [ __ ], so that [ __ ].*
-
-Acceptance Criteria:
-
-- Requirements to complete a user story.
-
-Definition of done:
-
-- ‘Ultimately, the user story is considered complete when…’
+<details><summary><h3>User Stories</h3></summary>
 
 <details><summary><h3>Potential User</h3></summary>
 
@@ -398,6 +396,8 @@ Story 2:
 ~~Definition of done:~~
 
 - ~~Admin user receives notice of a booking and its details.~~
+
+</details>
 
 </details>
 
