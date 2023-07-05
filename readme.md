@@ -214,6 +214,8 @@ Definition of done:
 
 - ‘Ultimately, the user story is considered complete when…’
 
+<details><summary><h3>Potential User</h3></summary>
+
 ### **Potential User:**
 
 Story 1:
@@ -274,6 +276,10 @@ Acceptance Criteria:
 Definition of done:
 
 - Reviews are displayed and external business links (eg. ~~Instagram~~).
+
+</details>
+
+<details><summary><h3>Registered User</h3></summary>
 
 ### **Registered User**
 
@@ -355,7 +361,11 @@ Definition of done:
 
 - Users can log out.
 
-### **Business User (Admin User)**
+</details>
+
+<details><summary><h3>Admin User</h3></summary>
+
+### **Admin User (Business User)**
 
 *(Business/Admin User to have same user story as Registered User stories 1 & 5 (logging in and out))*
 
@@ -388,6 +398,8 @@ Story 2:
 ~~Definition of done:~~
 
 - ~~Admin user receives notice of a booking and its details.~~
+
+</details>
 
 <br>
 
