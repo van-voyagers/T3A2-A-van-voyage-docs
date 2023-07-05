@@ -92,8 +92,7 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ### **Backend:**
 
-<img src="docs/express-logo.png" alt="Express.js" width="60">
-<img src="docs/node-logo.png" alt="Node.js" width="50">
+<img src="docs/express-logo.png" alt="Express.js" width="60"><img src="docs/node-logo.png" alt="Node.js" width="50">
 <img src="docs/mongodb-logo.png" alt="MongoDB" width="170">
 
 ### **Testing:**
