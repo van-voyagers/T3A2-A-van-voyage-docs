@@ -87,13 +87,13 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ### **Frontend:**
 
-<img src="docs/react-logo.png" alt="React" width="50"><img src="docs/tailwind-logo.png" alt="Tailwind CSS" width="50">
+<img src="docs/react-logo.png" alt="React" width="50">&nbsp;&nbsp;&nbsp;<img src="docs/tailwind-logo.png" alt="Tailwind CSS" width="50">
 
 <br>
 
 ### **Backend:**
 
-<img src="docs/express-logo.png" alt="Express.js" width="50"><img src="docs/node-logo.png" alt="Node.js" width="40"><img src="docs/mongodb-logo.png" alt="MongoDB" width="170">
+<img src="docs/express-logo.png" alt="Express.js" width="50">&nbsp;&nbsp;&nbsp;<img src="docs/node-logo.png" alt="Node.js" width="40">&nbsp;&nbsp;&nbsp;<img src="docs/mongodb-logo.png" alt="MongoDB" width="170">
 
 <br>
 
@@ -111,7 +111,7 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ### **Deployment:**
 
-<img src="docs/mongodb-atlas-logo.png" alt="MongoDB Atlas" width="120"><img src="docs/heroku-logo.png" alt="Heroku" width="120"><img src="docs/netlify-logo.png" alt="Netlify" width="120">
+<img src="docs/mongodb-atlas-logo.png" alt="MongoDB Atlas" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/heroku-logo.png" alt="Heroku" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/netlify-logo.png" alt="Netlify" width="120">
 
 <br>
 
