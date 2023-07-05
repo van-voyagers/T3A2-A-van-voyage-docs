@@ -212,7 +212,7 @@ Click the dropdowns below to view user stories and user personas.
 
 <details><summary><h3>User Stories</h3></summary>
 
-<details><summary><h3>Potential User</h3></summary>
+<details><summary>Potential User</summary>
 
 ### **Potential User:**
 
@@ -277,7 +277,7 @@ Definition of done:
 
 </details>
 
-<details><summary><h3>Registered User</h3></summary>
+<details><summary>Registered User</summary>
 
 ### **Registered User**
 
@@ -361,7 +361,7 @@ Definition of done:
 
 </details>
 
-<details><summary><h3>Admin User</h3></summary>
+<details><summary>Admin User</summary>
 
 ### **Admin User (Business User)**
 
