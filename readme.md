@@ -90,24 +90,35 @@ While the application will be designed with ease of use in mind, it will cater t
 <img src="docs/react-logo.png" alt="React" width="50">
 <img src="docs/tailwind-logo.png" alt="Tailwind CSS" width="50">
 
+<br/>
+
 ### **Backend:**
 
-<img src="docs/express-logo.png" alt="Express.js" width="60"><img src="docs/node-logo.png" alt="Node.js" width="50">
+<img src="docs/express-logo.png" alt="Express.js" width="60">
+<img src="docs/node-logo.png" alt="Node.js" width="50">
 <img src="docs/mongodb-logo.png" alt="MongoDB" width="170">
+
+<br/>
 
 ### **Testing:**
 
 <img src="docs/jest-logo.png" alt="Jest" width="80" height="80">
 
+<br/>
+
 ### **Design:**
 
 <img src="docs/figma-logo.png" alt="Figma" width="40">
+
+<br/>
 
 ### **Deployment:**
 
 <img src="docs/mongodb-atlas-logo.png" alt="MongoDB Atlas" width="120">
 <img src="docs/heroku-logo.png" alt="Heroku" width="120">
 <img src="docs/netlify-logo.png" alt="Netlify" width="120">
+
+<br/>
 
 ## Application Architecture Diagram:
 
