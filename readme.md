@@ -146,6 +146,7 @@ Definition of done:
 Click the dropdowns below to view user stories and user personas.
 
 _User personas are included to consider the different ways or approaches different users may take to using the website._
+
 _User stories and personas may contain ~~strikethroughs~~, indicating revision._
 
 
@@ -212,7 +213,6 @@ _User stories and personas may contain ~~strikethroughs~~, indicating revision._
 
 </details>
 </details>
-
 <details><summary><h3>User Stories</h3></summary>
 
 <details><summary>Potential User</summary>
