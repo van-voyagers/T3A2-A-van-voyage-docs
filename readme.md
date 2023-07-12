@@ -476,7 +476,7 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 
 ## Planning (Trello):
 
-### [Trello Link](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
+### [View Trello Board](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
 
 <br>
 
