@@ -117,10 +117,12 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ## Application Architecture Diagram:
 
+<img src="./docs/diagrams/AAD.png" width="1200"><br>
 <br>
 
 ## Data Flow Diagram:
 
+<img src="./docs/diagrams/DFD.png" width="1200"><br>
 <br>
 
 ## User Stories:
@@ -141,15 +143,17 @@ Definition of done:
 
 - ‘Ultimately, the user story is considered complete when…’
 
+---
+
 User personas are included to consider the different ways or approaches different users may take to using the website.
 
-Click the dropdowns below to view user stories and user personas.
+_Click the dropdowns below to view user stories and user personas._
 
 <details><summary><h3>User Personas</h3></summary>
 
 <details><summary>Potential User</summary>
 
-- **Potential user (AKA: unregistered user, “browsing” user)**
+### **Potential user (AKA: unregistered user, “browsing” user)**
 
   - Melanie: Retiree / 62
     - Not very technologically savvy. Needs a clear way to browse available vans and instructions on how to book.
@@ -175,7 +179,7 @@ Click the dropdowns below to view user stories and user personas.
 
 <details><summary>Registered User</summary>
 
-- **Registered User (AKA: existing user, returning user)**
+### **Registered User (AKA: existing user, returning user)**
 
   - Jarrod: Plumber / 32
     - Wants to be able to compare pricing and availability of dates that are available for booking, to plan their week off from work.
@@ -199,7 +203,7 @@ Click the dropdowns below to view user stories and user personas.
 
 <details><summary>Admin User</summary>
 
-- **Admin User (AKA: business user, vendor)**
+### **Admin User (AKA: business user, vendor)**
 
   - Vance: Business owner / 38
     - Wants to be able to add, edit and delete vans and their details (including pricing, image, description, availability, etc.) from the fleet that is available on the site.
@@ -207,7 +211,6 @@ Click the dropdowns below to view user stories and user personas.
     - Wants to be able to view relevant details of all registered users, as well as the ability to delete bot/spam user accounts.
 
 </details>
-
 </details>
 
 <details><summary><h3>User Stories</h3></summary>
