@@ -431,7 +431,48 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 ## [View Wireframes In Figma](https://www.figma.com/file/BemCVUbQDxPoxBus4lTpCc/Van-Voyage?type=design&node-id=0-1&mode=design&t=GJJb0HInyCqr9ETQ-0)
 
 <br>
-<br>
+
+## Design Iterations for Wireframes (Agile)
+
+### **Navigation and Flow:**
+
+- Initially, the wireframe design consisted of just a 'Vans' button in the navigation bar, leading users to the vans page for making a booking. Feedback led to the addition of a 'Book Now' button in the navigation bar and a prominently placed one on the home page, providing quicker access to the booking section. This improved the navigation flow by giving users a direct route to start booking a van.
+
+- In the original design, van information was only accessible through the 'Vans' page. To improve user flow, images of the three vans were added as clickable buttons on the home page, leading directly to the respective Van detail pages. This change provided users with a direct path to the details of the van they are interested in.
+
+- The login and create account forms were initially located on the same page, potentially causing confusion for the user. To improve flow, these were split into individual 'Login' and 'Signup' pages, ensuring a more intuitive path for users either returning to the site or signing up for the first time.
+
+- The mobile view initially displayed all vans listed down the Vans page. To streamline the mobile navigation flow, this was replaced with a dropdown menu allowing quick access to individual van details, reducing the number of steps a user would have to take to find information on a specific van.
+
+### **Layout and Positioning:**
+
+- In the initial design of the vans page, the images of the van were displayed in a vertically cascading manner, taking up a lot of space on the page and requiring the user to scroll to see all the content. The layout was revised to include a carousel for the images, consolidating space and making it easier for the user to view other details on the same screen.
+
+- The van details and booking calendar on the vans page were originally positioned so that the calendar was underneath the van details, requiring the user to scroll down to view available dates. To enhance the user experience and reduce scrolling, the layout was adjusted so that the calendar was positioned beside the van details. This allowed users to view the van details and available dates simultaneously.
+
+- Initially, the social media links were located in the top navigation bar. After several iterations, these links were moved to the footer to reduce clutter in the navigation bar and to place more emphasis on other essential navigation links and buttons.
+
+- The reviews section on the home page was initially positioned higher up on the page. After iterating, we realized that this section was not as critical as others to be seen so prominently, so it was moved to the bottom of the page. This also gave higher visibility to other, more critical sections on the home page.
+
+
+### **Element Design:**
+
+- Initially, there were not as many images of vans and scenic locations on the home page. After several iterations, we decided to add and enlarge these images to help users visualize the idea and concept of the business, providing a glimpse into what a getaway trip with Van Voyage might look like.
+
+- Over time, we shifted the color scheme towards natural, muted hues like greens and beiges. This decision was made to align the website's overall aesthetic more closely with the business's objective of providing nature-focused van trips.
+
+- In the first iteration of the wireframe design, we had a sticky footer. However, given the growing amount of information on the page and the non-essential nature of the footer content, we decided to switch to a non-sticky footer. This change improved the overall user experience by ensuring the most important information was front and center.
+
+
+### **Adding / Removing Features:**
+
+- Based on early feedback, we realised that users would want to be able to view the booking history easily. Therefore, we added a "Booking History" section to the user's account dashboard instead of it being seen via email. This also meant that we could handle the cancel booking feature here as well.
+
+- For a more intuitive experience, we decided to implement conditional rendering for the Login, Sign Up, Account, and Log Out buttons in the navigation bar. This means that the user will see "Login" and "Sign Up" buttons when they are not logged into the site. Once they log in, these buttons will switch to "Account" and "Log Out". This dynamic adjustment provides a more tailored user experience and intuitively guides users to relevant sections based on their authentication status. 
+
+- The initial design concept included an Instagram carousel at the bottom of the homepage, which aimed to showcase real-time updates and user experiences. It was thought that this would lend authenticity and vibrancy to the website. However, during the process of user feedback and further development, it was determined that this feature wasn't contributing significantly to the overall user experience.
+
+
 
 ## Planning (Trello):
 
