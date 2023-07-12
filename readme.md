@@ -101,7 +101,9 @@ The application is required to be scalable and extensible, built with the potent
 - **Featured Reviews Carousel:** The most recent reviews are dynamically displayed in a carousel on the home page.
 
 <br>
+
 <a name="target"></a>
+
 ## Target Audience: 
 
 The application's target audience is broad and inclusive, designed to cater to anyone with an interest in hiring vintage camper-vans. This could range from individuals planning a unique weekend getaway, families seeking an alternative vacation experience, to aficionados of vintage vehicles who relish the opportunity to experience these refurbished camper-vans.
@@ -109,7 +111,9 @@ The application's target audience is broad and inclusive, designed to cater to a
 While the application will be designed with ease of use in mind, it will cater to both tech-savvy users who are comfortable navigating digital platforms, and less tech-oriented individuals who may require a simpler, more intuitive user interface.
 
 <br>
+
 <a name="tech"></a>
+
 ## Tech Stack: 
 
 <br>
@@ -435,10 +439,12 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 
 <br>
 <a name="wireframes"></a>
+
 ## Wireframes:
 
 <div align="left">
 <a name="desktop"></a>
+  
 ### DESKTOP
 
 <img src="./docs/wireframe-screenshots/wireframes-desktop.png" width="1200"><br>
@@ -455,10 +461,12 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 <img src="./docs/wireframe-screenshots/desktop-create-account.png" width="1000"><br>
 <img src="./docs/wireframe-screenshots/desktop-account.png" width="1000"><br>
 <img src="./docs/wireframe-screenshots/desktop-vans.png" width="1000"><br>
-<img src="./docs/wireframe-screenshots/mobile-menus.png" width="200"><img src="./docs/wireframe-screenshots/mobile-home.png" width="200"><img src="./docs/wireframe-screenshots/mobile-login-signup.png" width="200"><img src="./docs/wireframe-screenshots/mobile-account.png" width="200"><img src="./docs/wireframe-screenshots/mobile-vans.png" width="200"><img src="./docs/wireframe-screenshots/mobile-booking-form.png" width="200"><img src="./docs/wireframe-screenshots/mobile-about.png" width="200"><img src="./docs/wireframe-screenshots/mobile-contact.png" width="200"><br>
+<img src="./docs/wireframe-screenshots/mobile-menus.png" width="200"><img src="./docs/wireframe-screenshots/mobile-home.png" width="200"><img src="./docs/wireframe-screenshots/mobile-login-signup.png" width="200"><img src="./docs/wireframe-screenshots/mobile-account.png" width="200"><img src="./docs/wireframe-screenshots/mobile-vans.png" width="200"><img src="./docs/wireframe-screenshots/mobile-booking-form.png" width="200"><img src="./docs/wireframe-screenshots/mobile-about.png" width="200"><img src="./docs/wireframe-screenshots/mobile-contact.png" width="200">
 
-  <br>
+<br>
+  
 <a name="wfflow"></a>
+
 ### WEBSITE FLOW & NAVIGATION
 
 <img src="./docs/wireframe-screenshots/frontend-flow-diagram.png" width="1200"><br>
@@ -466,11 +474,14 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 </div>
 
 <br>
+
 <a name="figma"></a>
+
 ## [View Wireframes In Figma](https://www.figma.com/file/BemCVUbQDxPoxBus4lTpCc/Van-Voyage?type=design&node-id=0-1&mode=design&t=GJJb0HInyCqr9ETQ-0)
 
 <br>
 <a name="wfiterations"></a>
+
 ## Design Iterations for Wireframes (Agile)
 
 ### **Navigation and Flow:**
@@ -534,4 +545,5 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 
 <br>
 <a name="references"></a>
+
 ## References:
