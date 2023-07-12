@@ -127,8 +127,6 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ## User Stories:
 
-_User stories may contain ~~strikethroughs~~, indicating revision._
-
 **Format:**
 
 Story #:
@@ -145,9 +143,11 @@ Definition of done:
 
 ---
 
-User personas are included to consider the different ways or approaches different users may take to using the website.
+Click the dropdowns below to view user stories and user personas.
 
-_Click the dropdowns below to view user stories and user personas._
+_User personas are included to consider the different ways or approaches different users may take to using the website._
+_User stories and personas may contain ~~strikethroughs~~, indicating revision._
+
 
 <details><summary><h3>User Personas</h3></summary>
 
