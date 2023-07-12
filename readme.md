@@ -125,13 +125,13 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ## User Stories:
 
-*User stories may contain ~~strikethroughs~~, indicating revision.*
+_User stories may contain ~~strikethroughs~~, indicating revision._
 
 **Format:**
 
 Story #:
 
-*As a [ persona ], I want to [ __ ], so that [ __ ].*
+_As a [ persona ], I want to [ __ ], so that [ __ ]._
 
 Acceptance Criteria:
 
@@ -151,25 +151,25 @@ Click the dropdowns below to view user stories and user personas.
 
 - **Potential user (AKA: unregistered user, “browsing” user)**
 
-    - Melanie: Retiree / 62
-        - Not very technologically savvy. Needs a clear way to browse available vans and instructions on how to book.
-    - Jack: Student / 22
-        - Wishes to book a van so that he and his partner can go on a road trip for a weekend trip. May be planning to go onto dirt roads/camping locations so will need a suitable van.
-    - Chad & Stephanie: Couple / late 20’s
-        - Wishes to browse vans and their interior in detail so that they can find a van that fits their ‘aesthetic’.
-    - Jerry: Banker / 31
-        - Wishes to compare the pricing of hiring a van as they are tossing up between a few different rental options.
-    - Jeremiah: Arborist / 29
-        - Wants to find contact information so that they can call or email the business with further, specific questions as well as confirm the legitimacy of the site. Wants to be able to check reviews as a way of finding out more about the business from the customer’s perspective.
+  - Melanie: Retiree / 62
+    - Not very technologically savvy. Needs a clear way to browse available vans and instructions on how to book.
+  - Jack: Student / 22
+    - Wishes to book a van so that he and his partner can go on a road trip for a weekend trip. May be planning to go onto dirt roads/camping locations so will need a suitable van.
+  - Chad & Stephanie: Couple / late 20’s
+    - Wishes to browse vans and their interior in detail so that they can find a van that fits their ‘aesthetic’.
+  - Jerry: Banker / 31
+    - Wishes to compare the pricing of hiring a van as they are tossing up between a few different rental options.
+  - Jeremiah: Arborist / 29
+    - Wants to find contact information so that they can call or email the business with further, specific questions as well as confirm the legitimacy of the site. Wants to be able to check reviews as a way of finding out more about the business from the customer’s perspective.
 
 - The following “potential user” personas were removed with the **first** iteration of revised user stories:
 
-    - ~~Jill: Mum / 35~~
-        - ~~Wishes to browse vans so that she can see if there is a van available that will be suited for her, her partner, and her 18 month old baby.~~
-            - *The user story for “Jack” meets the same requirements of the user being able to view the van description. The current version of MVP does not include additional extras (such as baby seats or bedding).*
-    - ~~Jay: Film director / 29~~
-        - ~~Wants to check out the legitimacy of the site (instagram carousel, reviews)~~
-            - *Legitimacy may be checked via contact information, reviews added to “Jeremiah” user story. Instagram carousel removed from MVP and is considered as a N2H.*
+  - ~~Jill: Mum / 35~~
+    - ~~Wishes to browse vans so that she can see if there is a van available that will be suited for her, her partner, and her 18 month old baby.~~
+      - _The user story for “Jack” meets the same requirements of the user being able to view the van description. The current version of MVP does not include additional extras (such as baby seats or bedding)._
+  - ~~Jay: Film director / 29~~
+    - ~~Wants to check out the legitimacy of the site (instagram carousel, reviews)~~
+      - _Legitimacy may be checked via contact information, reviews added to “Jeremiah” user story. Instagram carousel removed from MVP and is considered as a N2H._
 
 </details>
 
@@ -177,23 +177,23 @@ Click the dropdowns below to view user stories and user personas.
 
 - **Registered User (AKA: existing user, returning user)**
 
-    - Jarrod: Plumber / 32
-        - Wants to be able to compare pricing and availability of dates that are available for booking, to plan their week off from work.
-    - Jared: Sparkie / 33
-        - Wants to be able to receive confirmation of expected cost before finalising the booking.
-    - Jacquie: Teacher / 26
-        - Wants to post a review after her experience with the business
-    - John: Student / 25
-        - Wants to have some control over their profile settings and to be able to view and manage their current bookings
+  - Jarrod: Plumber / 32
+    - Wants to be able to compare pricing and availability of dates that are available for booking, to plan their week off from work.
+  - Jared: Sparkie / 33
+    - Wants to be able to receive confirmation of expected cost before finalising the booking.
+  - Jacquie: Teacher / 26
+    - Wants to post a review after her experience with the business
+  - John: Student / 25
+    - Wants to have some control over their profile settings and to be able to view and manage their current bookings
 
 - The following “registered user” personas were removed with the **first** iteration of revised user stories:
 
-    - ~~Greg: Tutor / 41~~
-        - ~~Has previously registered but has forgotten their password. Wants to recover their password.~~
-            - Not in current MVP.
-    - ~~Julie: CEO / 49~~
-        - ~~Has a very busy schedule and is fairly disorganised. Wants to receive booking confirmation with dates and all relevant information so that she can forward it to her assistant (to block her calendar? idk haha) without little interference.~~
-            - Not in current MVP, email notification moved to N2H.
+  - ~~Greg: Tutor / 41~~
+    - ~~Has previously registered but has forgotten their password. Wants to recover their password.~~
+      - Not in current MVP.
+  - ~~Julie: CEO / 49~~
+    - ~~Has a very busy schedule and is fairly disorganised. Wants to receive booking confirmation with dates and all relevant information so that she can forward it to her assistant (to block her calendar? idk haha) without little interference.~~
+      - Not in current MVP, email notification moved to N2H.
 
 </details>
 
@@ -201,10 +201,10 @@ Click the dropdowns below to view user stories and user personas.
 
 - **Admin User (AKA: business user, vendor)**
 
-    - Vance: Business owner / 38
-        - Wants to be able to add, edit and delete vans and their details (including pricing, image, description, availability, etc.) from the fleet that is available on the site.
-    - Vanessa: Business partner / 38
-        - Wants to be able to view relevant details of all registered users, as well as the ability to delete bot/spam user accounts.
+  - Vance: Business owner / 38
+    - Wants to be able to add, edit and delete vans and their details (including pricing, image, description, availability, etc.) from the fleet that is available on the site.
+  - Vanessa: Business partner / 38
+    - Wants to be able to view relevant details of all registered users, as well as the ability to delete bot/spam user accounts.
 
 </details>
 
@@ -218,7 +218,7 @@ Click the dropdowns below to view user stories and user personas.
 
 Story 1:
 
-*As a potential user, I want to be able to browse the available vans and their details without having to create an account, so that I can make an informed decision on whether to proceed with the booking.*
+_As a potential user, I want to be able to browse the available vans and their details without having to create an account, so that I can make an informed decision on whether to proceed with the booking._
 
 Acceptance Criteria:
 
@@ -230,10 +230,9 @@ Definition of done:
 
 - A user is able to browse vans without any required authentication.
 
-
 Story 2:
 
-*As a potential user, I want to be able to navigate the website easily, so that I may understand more about the business.*
+_As a potential user, I want to be able to navigate the website easily, so that I may understand more about the business._
 
 Acceptance Criteria:
 
@@ -245,10 +244,9 @@ Definition of done:
 
 - The website adheres to UI/UX and accessibility principles. The content displayed is readable and intuitive.
 
-
 Story 3:
 
-*As a potential user, I want to be able to easily sign up, so that I may make a hassle-free booking.*
+_As a potential user, I want to be able to easily sign up, so that I may make a hassle-free booking._
 
 Acceptance Criteria:
 
@@ -263,7 +261,7 @@ Definition of done:
 
 Story 4:
 
-*As a potential user, I want to find out more information about the business, so that I can ensure the site and business are legitimate.*
+_As a potential user, I want to find out more information about the business, so that I can ensure the site and business are legitimate._
 
 Acceptance Criteria:
 
@@ -283,26 +281,25 @@ Definition of done:
 
 Story 1:
 
-*As a (not currently logged in) registered user, I want to be able to log into my account, so that I’m authorised to book a van.*
+_As a (not currently logged in) registered user, I want to be able to log into my account, so that I’m authorised to book a van._
 
 Acceptance Criteria:
 
 - Login button is accessible via all main pages that takes the user to the login form.
 - Login form with email and password placeholder text.
 - Authenticated and authorised users (All authenticated users are authorised to book a van unless they do not have a valid license)
-    - Potential additional criteria (currently all N2H):
-        - Authorisation requires email confirmation
-        - “Remember me?” button and function on the login form.
-        - “Forgot your password?” button (and the process that follows) on the login form.
+  - Potential additional criteria (currently all N2H):
+    - Authorisation requires email confirmation
+    - “Remember me?” button and function on the login form.
+    - “Forgot your password?” button (and the process that follows) on the login form.
 
 Definition of done:
 
 - Users can log in.
 
-
 Story 2:
 
-*As a registered user, I want to be able to book a van between certain dates, so that I can hire the van for the selected timeframe.*
+_As a registered user, I want to be able to book a van between certain dates, so that I can hire the van for the selected timeframe._
 
 Acceptance Criteria:
 
@@ -315,10 +312,9 @@ Definition of done:
 
 - User can book their desired van, checking the availability by date. ~~User to receive information confirmation~~. User’s “Upcoming Trips” (under bookings) section in Account page to reflect newly added booking. Information to be updated in the database.
 
-
 Story 3:
 
-*As a registered user, I want to be able to update my personal information, so that it may reflect any changes I make to my address, email, etc.*
+_As a registered user, I want to be able to update my personal information, so that it may reflect any changes I make to my address, email, etc._
 
 Acceptance Criteria:
 
@@ -329,10 +325,9 @@ Definition of done:
 
 - User can update their personal information, with the user’s information in the database reflecting the change.
 
-
 Story 4:
 
-*As a registered user, I want to be able to view and manage my bookings, so I can confirm the dates and plan my trip.*
+_As a registered user, I want to be able to view and manage my bookings, so I can confirm the dates and plan my trip._
 
 Acceptance Criteria:
 
@@ -344,16 +339,15 @@ Definition of done:
 
 - User can view their bookings from the account page. User can manage or has instruction on how to manage their bookings. Bookings to display relevant information.
 
-
 Story 5:
 
-*As a registered user, I want to be able to log out of my account, so that I can end my session.*
+_As a registered user, I want to be able to log out of my account, so that I can end my session._
 
 Acceptance Criteria:
 
 - Logout button that signs the current user out.
-    - Potential additional criteria (currently N2H):
-        - If in the booking stages, or if in the process of any other action (cancellation, updating information) popup informs the user that logging out will not save their progress.
+  - Potential additional criteria (currently N2H):
+    - If in the booking stages, or if in the process of any other action (cancellation, updating information) popup informs the user that logging out will not save their progress.
 
 Definition of done:
 
@@ -365,29 +359,28 @@ Definition of done:
 
 ### **Admin User (Business User)**
 
-*(Business/Admin User to have same user story as Registered User stories 1 & 5 (logging in and out))*
+_(Business/Admin User to have same user story as Registered User stories 1 & 5 (logging in and out))_
 
 Story 1:
 
-*As a business admin user, I want to be able to update my van inventory and their details, so that the vans and their information displayed are accurate.*
+_As a business admin user, I want to be able to update my van inventory and their details, so that the vans and their information displayed are accurate._
 
 Acceptance Criteria:
 
 - Admin-level authentication to have authorisation for full CRUD over the van objects stored within the database.
-    - Considering the the timeframe and current state of MVP, the admin is to perform CRUD operations through Postman.
+  - Considering the the timeframe and current state of MVP, the admin is to perform CRUD operations through Postman.
 - Van objects with their information to be stored in MongoDB, certain properties to have data type validation (dates, prices(integer), etc.).
-    - MongoDB is to be connected to the front end (built with React) to accurately reflect and display the vans information
+  - MongoDB is to be connected to the front end (built with React) to accurately reflect and display the vans information
 
 Definition of done:
 
 - Admin user has full CRUD over objects within the database, with changes made updating in the front end.
 
-
 The following user story has been removed during the **first** iteration of the User stories (Email confirmation moved to N2H):
 
 Story 2:
 
-*~~As a business admin user, I want to be able to receive notice of any bookings made, so that I may record and manage them.~~*
+_~~As a business admin user, I want to be able to receive notice of any bookings made, so that I may record and manage them.~~_
 
 ~~Acceptance Criteria:~~
 
@@ -405,11 +398,56 @@ Story 2:
 
 ## Wireframes:
 
+<div align="left">
+
+### DESKTOP
+  <img src="./docs/wireframe-screenshots/wireframes-desktop.png" width="1200"><br>
+
+### TABLET  
+  <img src="./docs/wireframe-screenshots/wireframes-tablet.png" width="600"><br>
+
+### MOBILE
+  <img src="./docs/wireframe-screenshots/wireframes-mobile.png" width="1000"><br>
+  <img src="./docs/wireframe-screenshots/desktop-home.png" width="1000"><br>
+  <img src="./docs/wireframe-screenshots/desktop-login.png" width="1000"><br>
+  <img src="./docs/wireframe-screenshots/desktop-create-account.png" width="1000"><br>
+  <img src="./docs/wireframe-screenshots/desktop-account.png" width="1000"><br>
+  <img src="./docs/wireframe-screenshots/desktop-vans.png" width="1000"><br>
+  <img src="./docs/wireframe-screenshots/mobile-menus.png" width="200"><br>
+  <img src="./docs/wireframe-screenshots/mobile-home.png" width="200"><br>
+  <img src="./docs/wireframe-screenshots/mobile-login-signup.png" width="200"><br>
+  <img src="./docs/wireframe-screenshots/mobile-account.png" width="200"><br>
+  <img src="./docs/wireframe-screenshots/mobile-vans.png" width="200"><br>
+  <img src="./docs/wireframe-screenshots/mobile-booking-form.png" width="200"><br>
+  <img src="./docs/wireframe-screenshots/mobile-about.png" width="200"><br>
+  <img src="./docs/wireframe-screenshots/mobile-contact.png" width="200"><br>
+
+  <br>
+
+### WEBSITE FLOW & NAVIGATION
+  <img src="./docs/wireframe-screenshots/frontend-flow-diagram.png" width="1200"><br>
+</div>
+
+<br>
+
+
+## [View Wireframes In Figma ↗](https://www.figma.com/file/BemCVUbQDxPoxBus4lTpCc/Van-Voyage?type=design&node-id=0-1&mode=design&t=GJJb0HInyCqr9ETQ-0)
+
+<br>
 <br>
 
 ## Planning (Trello):
 
-[Trello Link](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
+### [Trello Link ↗](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
+
+<br>
+
+<img src="./docs/trello-screenshots/trello-1.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-2.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-3.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-4.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-5.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-6.png" width="1200"><br>
 
 <br>
 
