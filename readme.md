@@ -413,15 +413,8 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
   <img src="./docs/wireframe-screenshots/desktop-create-account.png" width="1000"><br>
   <img src="./docs/wireframe-screenshots/desktop-account.png" width="1000"><br>
   <img src="./docs/wireframe-screenshots/desktop-vans.png" width="1000"><br>
-  <img src="./docs/wireframe-screenshots/mobile-menus.png" width="200"><br>
-  <img src="./docs/wireframe-screenshots/mobile-home.png" width="200"><br>
-  <img src="./docs/wireframe-screenshots/mobile-login-signup.png" width="200"><br>
-  <img src="./docs/wireframe-screenshots/mobile-account.png" width="200"><br>
-  <img src="./docs/wireframe-screenshots/mobile-vans.png" width="200"><br>
-  <img src="./docs/wireframe-screenshots/mobile-booking-form.png" width="200"><br>
-  <img src="./docs/wireframe-screenshots/mobile-about.png" width="200"><br>
-  <img src="./docs/wireframe-screenshots/mobile-contact.png" width="200"><br>
-
+  <img src="./docs/wireframe-screenshots/mobile-menus.png" width="200"><img src="./docs/wireframe-screenshots/mobile-home.png" width="200"><img src="./docs/wireframe-screenshots/mobile-login-signup.png" width="200"><img src="./docs/wireframe-screenshots/mobile-account.png" width="200"><img src="./docs/wireframe-screenshots/mobile-vans.png" width="200"><img src="./docs/wireframe-screenshots/mobile-booking-form.png" width="200"><img src="./docs/wireframe-screenshots/mobile-about.png" width="200"><img src="./docs/wireframe-screenshots/mobile-contact.png" width="200"><br>
+  
   <br>
 
 ### WEBSITE FLOW & NAVIGATION
@@ -431,14 +424,14 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 <br>
 
 
-## [View Wireframes In Figma ↗](https://www.figma.com/file/BemCVUbQDxPoxBus4lTpCc/Van-Voyage?type=design&node-id=0-1&mode=design&t=GJJb0HInyCqr9ETQ-0)
+## [View Wireframes In Figma](https://www.figma.com/file/BemCVUbQDxPoxBus4lTpCc/Van-Voyage?type=design&node-id=0-1&mode=design&t=GJJb0HInyCqr9ETQ-0)
 
 <br>
 <br>
 
 ## Planning (Trello):
 
-### [Trello Link ↗](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
+### [Trello Link](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
 
 <br>
 
