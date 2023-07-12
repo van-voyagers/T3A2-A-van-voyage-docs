@@ -401,28 +401,32 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 <div align="left">
 
 ### DESKTOP
-  <img src="./docs/wireframe-screenshots/wireframes-desktop.png" width="1200"><br>
 
-### TABLET  
-  <img src="./docs/wireframe-screenshots/wireframes-tablet.png" width="600"><br>
+<img src="./docs/wireframe-screenshots/wireframes-desktop.png" width="1200"><br>
+
+### TABLET
+
+<img src="./docs/wireframe-screenshots/wireframes-tablet.png" width="600"><br>
 
 ### MOBILE
-  <img src="./docs/wireframe-screenshots/wireframes-mobile.png" width="1000"><br>
-  <img src="./docs/wireframe-screenshots/desktop-home.png" width="1000"><br>
-  <img src="./docs/wireframe-screenshots/desktop-login.png" width="1000"><br>
-  <img src="./docs/wireframe-screenshots/desktop-create-account.png" width="1000"><br>
-  <img src="./docs/wireframe-screenshots/desktop-account.png" width="1000"><br>
-  <img src="./docs/wireframe-screenshots/desktop-vans.png" width="1000"><br>
-  <img src="./docs/wireframe-screenshots/mobile-menus.png" width="200"><img src="./docs/wireframe-screenshots/mobile-home.png" width="200"><img src="./docs/wireframe-screenshots/mobile-login-signup.png" width="200"><img src="./docs/wireframe-screenshots/mobile-account.png" width="200"><img src="./docs/wireframe-screenshots/mobile-vans.png" width="200"><img src="./docs/wireframe-screenshots/mobile-booking-form.png" width="200"><img src="./docs/wireframe-screenshots/mobile-about.png" width="200"><img src="./docs/wireframe-screenshots/mobile-contact.png" width="200"><br>
-  
+
+<img src="./docs/wireframe-screenshots/wireframes-mobile.png" width="1000"><br>
+<img src="./docs/wireframe-screenshots/desktop-home.png" width="1000"><br>
+<img src="./docs/wireframe-screenshots/desktop-login.png" width="1000"><br>
+<img src="./docs/wireframe-screenshots/desktop-create-account.png" width="1000"><br>
+<img src="./docs/wireframe-screenshots/desktop-account.png" width="1000"><br>
+<img src="./docs/wireframe-screenshots/desktop-vans.png" width="1000"><br>
+<img src="./docs/wireframe-screenshots/mobile-menus.png" width="200"><img src="./docs/wireframe-screenshots/mobile-home.png" width="200"><img src="./docs/wireframe-screenshots/mobile-login-signup.png" width="200"><img src="./docs/wireframe-screenshots/mobile-account.png" width="200"><img src="./docs/wireframe-screenshots/mobile-vans.png" width="200"><img src="./docs/wireframe-screenshots/mobile-booking-form.png" width="200"><img src="./docs/wireframe-screenshots/mobile-about.png" width="200"><img src="./docs/wireframe-screenshots/mobile-contact.png" width="200"><br>
+
   <br>
 
 ### WEBSITE FLOW & NAVIGATION
-  <img src="./docs/wireframe-screenshots/frontend-flow-diagram.png" width="1200"><br>
+
+<img src="./docs/wireframe-screenshots/frontend-flow-diagram.png" width="1200"><br>
+
 </div>
 
 <br>
-
 
 ## [View Wireframes In Figma](https://www.figma.com/file/BemCVUbQDxPoxBus4lTpCc/Van-Voyage?type=design&node-id=0-1&mode=design&t=GJJb0HInyCqr9ETQ-0)
 
