@@ -553,3 +553,9 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 <a name="references"></a>
 
 ## References:
+
+[Atlassian. (n.d.). Agile project management: Creating user stories. Retrieved from https://www.atlassian.com/agile/project-management/user-stories](https://www.atlassian.com/agile/project-management/user-stories)
+
+[The Business Analysis Doctor - IIBA Certification, (2022) Data Flow Diagram EXAMPLE [How to Create Data Flow Diagrams]](https://www.youtube.com/watch?v=ab1DZ6o7QBs)
+
+Diagrams were made with [Lucid](https://lucid.app/documents#/documents?folder_id=recent), [Canva](https://www.canva.com/), and [draw.io](https://app.diagrams.net/)
