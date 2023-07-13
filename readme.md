@@ -524,12 +524,18 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 
 
 <a name="otherdiagrams"></a>
+
 ## Other Diagrams:
+
+_An Entity Relationship Diagram (ERD) was made to further understand the relationships between the databases:_
+
+<img src="./docs/diagrams/ERD.png" width="1200"><br>
 
 <br>
 
 
 <a name="trello"></a>
+
 ## Planning (Trello):
 
 ### [View Trello Board](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
