@@ -577,4 +577,14 @@ Our use of Trello for this project was instrumental in keeping us organized, pro
 
 [The Business Analysis Doctor - IIBA Certification, (2022) Data Flow Diagram EXAMPLE [How to Create Data Flow Diagrams]](https://www.youtube.com/watch?v=ab1DZ6o7QBs)
 
-Diagrams were made with [Lucid](https://lucid.app/documents#/documents?folder_id=recent), [Canva](https://www.canva.com/), and [draw.io](https://app.diagrams.net/)
+Diagrams were made with: [Lucid](https://lucid.app/documents#/documents?folder_id=recent), [Canva](https://www.canva.com/), and [draw.io](https://app.diagrams.net/)
+
+Facebook, Instagram, Burger Menu and Live Chat Icons created at: [Flaticon](https://www.flaticon.com/) 
+
+Van Voyage logo created with: [Looka](https://looka.com/)
+
+Free to use images taken from: [Unsplash](https://www.canva.com/), [Pexels](https://www.pexels.com/)
+
+Van images taken from: [Camplify](https://www.camplify.com.au)
+
+Owners of Van images have been contacted and two out of three have given permission to use the images for this project. If we haven't heard back from the final Van owner before development, we will find free to use images for the third van.
