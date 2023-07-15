@@ -563,6 +563,10 @@ Our use of Trello for this project was instrumental in keeping us organized, pro
 <img src="./docs/trello-screenshots/trello-4.png" width="1200"><br>
 <img src="./docs/trello-screenshots/trello-5.png" width="1200"><br>
 <img src="./docs/trello-screenshots/trello-6.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-7.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-8.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-9.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-10.png" width="1200"><br>
 
 <br>
 <a name="references"></a>
