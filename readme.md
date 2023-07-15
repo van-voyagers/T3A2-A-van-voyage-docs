@@ -120,31 +120,31 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ### **Frontend:**
 
-<img src="docs/react-logo.png" alt="React" width="50">&nbsp;&nbsp;&nbsp;<img src="docs/tailwind-logo.png" alt="Tailwind CSS" width="50">
+<img src="docs/tech-stack/react-logo.png" alt="React" width="50">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/tailwind-logo.png" alt="Tailwind CSS" width="50">
 
 <br>
 
 ### **Backend:**
 
-<img src="docs/express-logo.png" alt="Express.js" width="50">&nbsp;&nbsp;&nbsp;<img src="docs/node-logo.png" alt="Node.js" width="40">&nbsp;&nbsp;&nbsp;<img src="docs/mongodb-logo.png" alt="MongoDB" width="170">
+<img src="docs/tech-stack/express-logo.png" alt="Express.js" width="50">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/node-logo.png" alt="Node.js" width="40">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/mongodb-logo.png" alt="MongoDB" width="170">
 
 <br>
 
 ### **Testing:**
 
-<img src="docs/jest-logo.png" alt="Jest" width="80">
+<img src="docs/tech-stack/jest-logo.png" alt="Jest" width="80">
 
 <br>
 
 ### **Design:**
 
-<img src="docs/figma-logo.png" alt="Figma" width="30">
+<img src="docs/tech-stack/figma-logo.png" alt="Figma" width="30">
 
 <br>
 
 ### **Deployment:**
 
-<img src="docs/mongodb-atlas-logo.png" alt="MongoDB Atlas" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/heroku-logo.png" alt="Heroku" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/netlify-logo.png" alt="Netlify" width="120">
+<img src="docs/tech-stack/mongodb-atlas-logo.png" alt="MongoDB Atlas" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/heroku-logo.png" alt="Heroku" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/netlify-logo.png" alt="Netlify" width="120">
 
 <br>
 
@@ -539,6 +539,21 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 ## Planning (Trello):
 
 ### [View Trello Board](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
+
+
+To initiate the project planning process, we first set up a Trello board to streamline our project tasks, track progress, and ensure every team member is aligned with the project's objectives. The board was divided into three main categories: To Do, Doing, and Done. These categories provided a clear and concise overview of our work progress at any given point.
+
+We used color-coding for each card to clearly distinguish between different aspects of the project. Blue cards represented frontend-related tasks, Green was used for the database tasks, Turquoise was assigned to backend tasks, Orange was used for project's Part A tasks, and Red was designated for any questions or reminders that came up during the project lifecycle. The color coding system allowed us to quickly grasp the nature of the tasks at a glance.
+
+Labels were another key feature we used to add an extra layer of categorization within the color-coded cards. These labels indicated whether the task involved Coding (Orange label), Planning (Green label), Documentation (Blue label), or corresponded to a specific Rubric (Red label). Labels helped us understand the type of work required for each task, irrespective of its nature (frontend, backend, or database).
+
+In order to maintain a smooth workflow and meet our deadlines, we set due dates for each card. This not only helped us prioritize tasks effectively but also ensured we were consistently making progress towards our project goals.
+
+To further refine our task prioritization process, we used a Trello Power-Up called "Card Priority." This allowed us to classify each task into one of four categories: Urgent and Important, Not Urgent but Important, Urgent and Not Important, and Not Urgent and Not Important. The level of importance was displayed on the front of each card, ensuring that our most critical tasks received immediate attention.
+
+A unique checklist was created for each card, providing a detailed breakdown of the individual steps required to complete the task. As we progressed, we ticked off completed items, allowing us to track our progress in a granular way and ensuring nothing was missed.
+
+Our use of Trello for this project was instrumental in keeping us organized, productive, and aligned with our project goals. It provided a visual snapshot of our project's status and allowed us to efficiently manage our tasks, leading to a streamlined and effective workflow.
 
 <br>
 
