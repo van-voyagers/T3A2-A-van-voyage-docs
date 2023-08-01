@@ -533,6 +533,444 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <br>
 
+# Testing:
+
+## Backend Server Testing (Development & Production)
+
+### USERS
+
+#### **ENDPOINT: Sign In**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Token
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-1.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Token
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-1.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Get User (Self)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = User Details
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-2.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = User Details
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-2.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Create Account**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Email, Password, Admin, ID
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-3.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Email, Password, Admin, ID
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-3.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Update User Details**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Field given has updated
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-4.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Field given has updated
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-4.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Change Password**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = "Password changed successfully"
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-5.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = "Password changed successfully"
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-5.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete User (Self)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = "Account deleted successfully"
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-6.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = "Account deleted successfully"
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-6.png" width="1200"><br>
+
+<hr>
+
+### USERS (Admin)
+
+#### **ENDPOINT: Get All Users**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of all users
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-7.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of all users
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-7.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Query Users by Value**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Specific user returned
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-8.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Specific user returned
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-8.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Update user details**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = User object returned with updated field
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-9.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = User object returned with updated field
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-9.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete User by ID**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = "User successfully deleted"
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-10.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = "User successfully deleted"
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-10.png" width="1200"><br>
+
+<hr>
+
+### BOOKINGS
+
+#### **ENDPOINT: Get My Bookings**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of bookings
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-11.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of bookings
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-11.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Create New Booking**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Error message since booking is longer than 3 weeks
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-12.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Error message since booking is longer than 3 weeks
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-12.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete Booking**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Booking (ID) deleted successfully
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-13.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Booking (ID) deleted successfully
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-13.png" width="1200"><br>
+
+<hr>
+
+### BOOKINGS (Admin)
+
+#### **ENDPOINT: Get All Bookings (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of bookings
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-14.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of Bookings
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-14.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Update Booking (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Van is booked for those dates, so a relevant error message displays
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-15.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the Booking
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-15.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete Booking (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Booking deleted successfully
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-16.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Booking deleted successfully
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-16.png" width="1200"><br>
+
+<hr>
+
+### REVIEWS
+
+#### **ENDPOINT: Get All Reviews**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of Reviews
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-17.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of Reviews
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-17.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Create Review**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the review
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-18.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the review
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-18.png" width="1200"><br>
+
+<hr>
+
+### REVIEWS (Admin)
+
+#### **ENDPOINT: Update Review By ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the review with updated field
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-19.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the review with updated field
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-19.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete Review By ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Review successfully deleted
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-20.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Review successfully deleted
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-20.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Get Review By ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the review
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-21.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the review
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-21.png" width="1200"><br>
+
+<hr>
+
+### VANS (Admin)
+
+#### **ENDPOINT: Get All Vans (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of vans
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-22.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of Vans
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-22.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Query Vans by Value (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of vans with that specific value
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-23.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of vans with that specific value
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-23.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Add Van (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the van that was added
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-24.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the van that was added
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-24.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Update Van by ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the van that was updated
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-25.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the van that was updated
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-25.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete Van by ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Van and associated bookings successfully deleted
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-26.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Van and associated bookings successfully deleted
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-26.png" width="1200"><br>
+
+
+
+
+
+
+
 
 <a name="trello"></a>
 
@@ -567,6 +1005,15 @@ Our use of Trello for this project was instrumental in keeping us organized, pro
 <img src="./docs/trello-screenshots/trello-8.png" width="1200"><br>
 <img src="./docs/trello-screenshots/trello-9.png" width="1200"><br>
 <img src="./docs/trello-screenshots/trello-10.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-11.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-12.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-13.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-14.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-15.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-16.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-17.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-18.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-19.png" width="1200"><br>
 
 <br>
 <a name="references"></a>
