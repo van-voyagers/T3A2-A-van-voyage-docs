@@ -572,13 +572,13 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 ## Frontend Client Testing (Development & Production)
 
-- Frontend manual testing was done for associated prominent user stories on the deployed site as well as on the development server. 
+Frontend manual testing was done for associated prominent user stories on the deployed site as well as on the development server. 
 
-- You can view the Frontend client testing spreadsheet at this link: 
+You can view the Frontend client testing spreadsheet at this link: 
 
-- [Frontend Manual Testing Spreadsheet (Google Sheets)](https://docs.google.com/spreadsheets/d/159oieAXSn6Z50X-ZQ3MQQzAj6VZBJHPUPWPGDkuA-aw/edit?usp=sharing)
+### [Frontend Manual Testing Spreadsheet (Google Sheets)](https://docs.google.com/spreadsheets/d/159oieAXSn6Z50X-ZQ3MQQzAj6VZBJHPUPWPGDkuA-aw/edit?usp=sharing)
 
-<img src="./docs/prod-server-testing-screenshots/prod-client-manual-testing.png" width="1200"><br>
+<img src="./docs/prod-server-testing-screenshots/prod-client-manual-testing.png" width="900"><br>
 
 <a name="btestingbe"></a>
 
@@ -1031,7 +1031,7 @@ Building on from the submission of part A, we built on what we had planned and a
 
 Generally, the main tasks outside of configuration and setup were split between The User & Review models and controllers (Jordan), and the Van & booking models and controllers (James). Each member continued their backend builds to the frontend, working with the same models and logic that we had built in the backend. 
 
-Our build plan consisted of three sprints, each lasting one week. We would also have daily stand-ups, where we would inform the other of what we were working on at the moment, what troubles we were encountering, and what we were to work on next. We would also discuss the implementation of certain features and would either add or cut features as necessary. Code was to be reviewed upon every branch merge. A Trello board was made with tasks related to each section within the build that needed to be covered. Tasks were assigned with JA and JB to indicate which member was to focus on that task, and importance ratings and due dates were assigned to the cards to align with the planned sprints. 
+Our build plan consisted of three sprints, each lasting one week. We would also have daily stand-ups, where we would inform the other of what we were working on at the moment, what troubles we were encountering, and what we were to work on next. We would also discuss the implementation of certain features and would either add or cut features as necessary. Code was to be reviewed upon every branch merge. A [Trello board](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a) was made with tasks related to each section within the build that needed to be covered. Tasks were assigned with JA and JB to indicate which member was to focus on that task, and importance ratings and due dates were assigned to the cards to align with the planned sprints. 
 
 The layout of the sprints are as follows:
 
