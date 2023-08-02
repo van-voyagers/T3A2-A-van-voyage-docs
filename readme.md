@@ -46,9 +46,21 @@
    6. [Design iterations (agile)](#wfiterations)
 6. [Trello](#trello)
 7. [Other Diagrams](#otherdiagrams)
+8. [Documentation for part B](#partb)
+   1. [Testing](#btesting)
+      1. [Front end](#btestingfe)
+      2. [Back end](#btestingfe)
+         1. [Users](#btestingbeusers)
+         2. [Bookings](#btestingbebookings)
+         3. [Reviews](#btestingbereviews)
+         4. [Vans](#btestingbevans)
+   2. [Planning methodology](#bmethodology)
+   3. [Server packages and dependencies](#bbepackages)
+   4. [Client packages and dependencies](#bfepackages)
 8. [References](#references)
    
 <a name="purpose"></a>
+
 ## Purpose: 
 
 The purpose of this application is to facilitate the operation of a hypothetical business that rents out a small fleet of vintage, refurbished camper-vans. It aims to provide a user-friendly platform where customers can conveniently book camper-vans and view their availability in real-time. The application is designed to cover new user registration, profile management, booking logs, availability tracking, and booking confirmation. It is intended to have an inbuilt review system, fostering a transparent and interactive space for customers to share their experiences.
@@ -58,8 +70,11 @@ The application is required to be scalable and extensible, built with the potent
 <br>
 
 <a name="functionality"></a>
+
 ## Functionality & Features: 
+
 <a name="onboarding"></a>
+
 ### **User Onboarding**
 
 - **Account Creation:** Users can register for an account via a straightforward sign-up process that only requires email and password.
@@ -69,13 +84,17 @@ The application is required to be scalable and extensible, built with the potent
 - **User Profile / Account Page:** After creating an account, users can manage their personal profile by updating details such as email, password, first name, last name, phone number, address, date of birth, and license number. Here they also have the ability to delete their account.
 
 - **Logging Out:** Users can securely log out of their accounts when they're done with their session, ensuring their data remains secure.
+
 <a name="browsing"></a>
+
 ### **Van Browsing**
 
 - **Van Details View:** Each vintage van is given its own section with an image carousel, details of van features and pricing that updates when dates are selected.
 
 - **Real-time Availability Check:** Users can immediately see whether their chosen van is available for their preferred dates via a dynamic calendar.
+
 <a name="booking"></a>
+
 ### **Booking / Contact System**
 
 - **Select Van / Date / Duration:** Users can easily select their van of choice, specify their rental duration, and see the total cost of the booking prior to confirming.
@@ -83,7 +102,9 @@ The application is required to be scalable and extensible, built with the potent
 - **Booking Confirmation:** Users will be able to see the details of their booking in their accounts page with the ability to cancel the booking if needed.
 
 - **Contacting Van Voyage:** If users need to contact the business for any reason such as updating booking details or account issues, they can do so via the contact form on the contact page.
+
 <a name="crud"></a>
+
 ### **Admin CRUD (Postman)**
 
 - **User Management:** Admins can manage all user accounts, including creation, deletion, and updates.
@@ -93,7 +114,9 @@ The application is required to be scalable and extensible, built with the potent
 - **Booking Overview:** Admins can access and manage all bookings in the database.
 
 - **Reviews:** Admins have complete control over any reviews posted to the website.
+
 <a name="reviews"></a>
+
 ### **Review System:**
 
 - **Post Booking Reviews:** Users can share their experiences and thoughts after their booking is confirmed. Reviews consist of a start rating and a comment.
@@ -149,6 +172,7 @@ While the application will be designed with ease of use in mind, it will cater t
 <br>
 
 <a name="dfd"></a>
+
 ## Data Flow Diagram:
 
 <img src="./docs/diagrams/DFD.png" width="1200">
@@ -156,6 +180,7 @@ While the application will be designed with ease of use in mind, it will cater t
 <br>
 
 <a name="aad"></a>
+
 ## Application Architecture Diagram:
 
 <img src="./docs/diagrams/AAD.png" width="1200">
@@ -163,6 +188,7 @@ While the application will be designed with ease of use in mind, it will cater t
 <br>
 
 <a name="users"></a>
+
 ## User Stories:
 
 **Format:**
@@ -188,6 +214,7 @@ _User personas are included to consider the different ways or approaches differe
 _User stories and personas may contain ~~strikethroughs~~, indicating revision._
 
 <a name="personas"></a>
+
 <details><summary><h3>User Personas</h3></summary>
 
 <details><summary>Potential User</summary>
@@ -449,10 +476,12 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 
 <img src="./docs/wireframe-screenshots/wireframes-desktop.png" width="1200"><br>
 <a name="tablet"></a>
+
 ### TABLET
 
 <img src="./docs/wireframe-screenshots/wireframes-tablet.png" width="600"><br>
 <a name="mobile"></a>
+
 ### MOBILE
 
 <img src="./docs/wireframe-screenshots/wireframes-mobile.png" width="1000"><br>
@@ -533,9 +562,23 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <br>
 
+<a name="partb"></a>
+
+<a name="btesting"></a>
+
 # Testing:
 
+<a name="btestingfe"></a>
+
+## Frontend Client Testing (Development & Production)
+
+- Frontend manual testing was done for associated prominent user stories on the deployed site as well as on the development server. You can view the Frontend client testing spreadsheet at this link: [Frontend Manual Testing Spreadsheet (Google Sheets)](https://docs.google.com/spreadsheets/d/159oieAXSn6Z50X-ZQ3MQQzAj6VZBJHPUPWPGDkuA-aw/edit?usp=sharing)
+
+<a name="btestingbe"></a>
+
 ## Backend Server Testing (Development & Production)
+
+<a name="btestingbeusers"></a>
 
 ### USERS
 
@@ -701,6 +744,8 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <hr>
 
+<a name="btestingbebookings"></a>
+
 ### BOOKINGS
 
 #### **ENDPOINT: Get My Bookings**
@@ -801,6 +846,8 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <hr>
 
+<a name="btestingbereviews"></a>
+
 ### REVIEWS
 
 #### **ENDPOINT: Get All Reviews**
@@ -885,6 +932,9 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <hr>
 
+
+<a name="btestingbevans"></a>
+
 ### VANS (Admin)
 
 #### **ENDPOINT: Get All Vans (Admin)**
@@ -965,8 +1015,32 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <img src="./docs/prod-server-testing-screenshots/prod-server-testing-26.png" width="1200"><br>
 
+<a name="bmethodology"></a>
 
+# Planning methodology used:
 
+A project management methodology was implemented to keep the project on track and organised, so that we were on the same page with regards to what we were working on, and what steps we were needing to take next in the build of the application. For our project, we utilised a loose Agile methodology consisting of three short sprints and daily stand-ups. 
+
+Building on from the submission of part A, we built on what we had planned and also removed some features from the MVP for the purpose of keeping the project within scope given the time frame. A Trello board was used, and tasks were allocated. For this project, we both took part in building the back end server of the site, and the frontend client, with our main tasks revolving around the models that we were working with. In this sense, we both would have experience within the majority of aspects of the build, as we were not limited to working on one end of the project. 
+
+Generally, the main tasks outside of configuration and setup were split between The User & Review models and controllers (Jordan), and the Van & booking models and controllers (James). Each member continued their backend builds to the frontend, working with the same models and logic that we had built in the backend. 
+
+Our build plan consisted of three sprints, each lasting one week. We would also have daily stand-ups, where we would inform the other of what we were working on at the moment, what troubles we were encountering, and what we were to work on next. We would also discuss the implementation of certain features and would either add or cut features as necessary. Code was to be reviewed upon every branch merge. A Trello board was made with tasks related to each section within the build that needed to be covered. Tasks were assigned with JA and JB to indicate which member was to focus on that task, and importance ratings and due dates were assigned to the cards to align with the planned sprints. 
+
+The layout of the sprints are as follows:
+
+- Week 1: The backend build
+    - Members were allocated their models and controllers to work on, with both members conducting their own tests in postman.
+    - A goal was set for routes to be setup and working as intended by the end of the week.
+    - Tasks allocated in Trello.
+- Week 2: The frontend build
+    - The frontend build was done with each member having a primary focus on their models that were allocated.
+    - A goal was set to deploy the client early in the week.
+    - A goal was set to have the production server deployed and connected to the client (running in production) by the end of the week.
+- Week 3: Testing and tying up the loose ends
+    - Week 3’s primary focus was testing, as well as going over the assignment and rubric. Week 3 intentionally had a lot of wiggle room in the case that either the backend or frontend build ran into issues resulting in it extending past their allocated one week sprint.
+
+<a name="bbepackages"></a>
 
 # Packages Used In Server:
 
@@ -1002,6 +1076,8 @@ jsonwebtoken is a library that creates JSON Web Tokens (JWTs) which securely tra
 
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. Mongoose handles the app's interaction with MongoDB for data storage.
 
+<a name="bbedependencies"></a>
+
 ## Dev Dependencies
 
 ### **jest:** 
@@ -1018,6 +1094,7 @@ Supertest is a high-level abstraction for testing HTTP, while still allowing you
 
 <br>
 
+<a name="bfepackages"></a>
 
 # Packages Used In Client:
 
@@ -1049,6 +1126,9 @@ This is a component for building responsive carousels in React. It's used in thi
 ### **react-star-ratings:** 
 
 A flexible star ratings component for React. It's used in this app for users to rate items and display existing ratings.
+
+
+<a name="bfedependencies"></a>
 
 ## Dev Dependencies
 
