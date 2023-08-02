@@ -1229,6 +1229,5 @@ Van Voyage logo created with: [Looka](https://looka.com/)
 
 Free to use images taken from: [Unsplash](https://www.canva.com/), [Pexels](https://www.pexels.com/)
 
-Van images taken from: [Camplify](https://www.camplify.com.au)
+Van images from: [Camplify](https://www.camplify.com.au)
 
-Owners of Van images have been contacted and two out of three have given permission to use the images for this project. If we haven't heard back from the final Van owner before development, we will find free to use images for the third van.
