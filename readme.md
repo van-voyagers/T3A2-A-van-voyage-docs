@@ -572,7 +572,13 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 ## Frontend Client Testing (Development & Production)
 
-- Frontend manual testing was done for associated prominent user stories on the deployed site as well as on the development server. You can view the Frontend client testing spreadsheet at this link: [Frontend Manual Testing Spreadsheet (Google Sheets)](https://docs.google.com/spreadsheets/d/159oieAXSn6Z50X-ZQ3MQQzAj6VZBJHPUPWPGDkuA-aw/edit?usp=sharing)
+- Frontend manual testing was done for associated prominent user stories on the deployed site as well as on the development server. 
+
+- You can view the Frontend client testing spreadsheet at this link: 
+
+- [Frontend Manual Testing Spreadsheet (Google Sheets)](https://docs.google.com/spreadsheets/d/159oieAXSn6Z50X-ZQ3MQQzAj6VZBJHPUPWPGDkuA-aw/edit?usp=sharing)
+
+<img src="./docs/prod-server-testing-screenshots/prod-client-manual-testing.png" width="1200"><br>
 
 <a name="btestingbe"></a>
 
