@@ -9,8 +9,8 @@
 # Van Voyage (Planning and Documentation)
 
 [Part A - Docs](https://github.com/van-voyagers/T3A2-A-van-voyage-docs) <br>
-[Part B - Client](https://github.com/van-voyagers/T3A2-A-van-voyage-docs) <br>
-[Part B - Server](https://github.com/van-voyagers/T3A2-A-van-voyage-docs)
+[Part B - Client](https://github.com/van-voyagers/T3A2-B-van-voyage-client) <br>
+[Part B - Server](https://github.com/van-voyagers/T3A2-B-van-voyage-server)
 
 <br>
 
@@ -533,6 +533,555 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <br>
 
+# Testing:
+
+## Backend Server Testing (Development & Production)
+
+### USERS
+
+#### **ENDPOINT: Sign In**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Token
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-1.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Token
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-1.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Get User (Self)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = User Details
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-2.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = User Details
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-2.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Create Account**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Email, Password, Admin, ID
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-3.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Email, Password, Admin, ID
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-3.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Update User Details**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Field given has updated
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-4.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Field given has updated
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-4.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Change Password**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = "Password changed successfully"
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-5.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = "Password changed successfully"
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-5.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete User (Self)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = "Account deleted successfully"
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-6.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = "Account deleted successfully"
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-6.png" width="1200"><br>
+
+<hr>
+
+### USERS (Admin)
+
+#### **ENDPOINT: Get All Users**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of all users
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-7.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of all users
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-7.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Query Users by Value**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Specific user returned
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-8.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Specific user returned
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-8.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Update user details**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = User object returned with updated field
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-9.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = User object returned with updated field
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-9.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete User by ID**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = "User successfully deleted"
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-10.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = "User successfully deleted"
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-10.png" width="1200"><br>
+
+<hr>
+
+### BOOKINGS
+
+#### **ENDPOINT: Get My Bookings**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of bookings
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-11.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of bookings
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-11.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Create New Booking**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Error message since booking is longer than 3 weeks
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-12.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Error message since booking is longer than 3 weeks
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-12.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete Booking**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Booking (ID) deleted successfully
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-13.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Booking (ID) deleted successfully
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-13.png" width="1200"><br>
+
+<hr>
+
+### BOOKINGS (Admin)
+
+#### **ENDPOINT: Get All Bookings (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of bookings
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-14.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of Bookings
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-14.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Update Booking (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Van is booked for those dates, so a relevant error message displays
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-15.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the Booking
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-15.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete Booking (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Booking deleted successfully
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-16.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Booking deleted successfully
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-16.png" width="1200"><br>
+
+<hr>
+
+### REVIEWS
+
+#### **ENDPOINT: Get All Reviews**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of Reviews
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-17.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of Reviews
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-17.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Create Review**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the review
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-18.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the review
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-18.png" width="1200"><br>
+
+<hr>
+
+### REVIEWS (Admin)
+
+#### **ENDPOINT: Update Review By ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the review with updated field
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-19.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the review with updated field
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-19.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete Review By ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Review successfully deleted
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-20.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Review successfully deleted
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-20.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Get Review By ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the review
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-21.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the review
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-21.png" width="1200"><br>
+
+<hr>
+
+### VANS (Admin)
+
+#### **ENDPOINT: Get All Vans (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of vans
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-22.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of Vans
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-22.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Query Vans by Value (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = List of vans with that specific value
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-23.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = List of vans with that specific value
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-23.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Add Van (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the van that was added
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-24.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the van that was added
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-24.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Update Van by ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Details of the van that was updated
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-25.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Details of the van that was updated
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-25.png" width="1200"><br>
+
+<hr>
+
+#### **ENDPOINT: Delete Van by ID (Admin)**
+
+- Development URL: http://localhost:3000/
+- Expected Result: Output = Van and associated bookings successfully deleted
+- PASS ✅
+
+<img src="./docs/dev-server-testing-screenshots/dev-server-testing-26.png" width="1200"><br>
+
+- Production URL: https://van-voyage-server.onrender.com/
+- Expected Result: Output = Van and associated bookings successfully deleted
+- PASS ✅
+
+<img src="./docs/prod-server-testing-screenshots/prod-server-testing-26.png" width="1200"><br>
+
+
+
+
+# Packages Used In Server:
+
+### **bcryptjs:** 
+
+A JavaScript-based implementation of bcrypt, designed for password hashing and salting. It works by converting plaintext passwords into hashed strings using a CPU-intensive hash algorithm and a random salt. It's used in this app as a secure way to store user passwords.
+
+### **cors:** 
+
+Cross-Origin Resource Sharing (CORS) is a middleware that enables many types of interactions between different domains. By setting specific headers in HTTP responses, cors allows this app's server to accept and respond to HTTP requests from different origins, providing an essential service for modern web applications that separate frontend and backend domains.
+
+### **dotenv:** 
+
+Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env in Node.js applications. It's used in this app to handle app configuration such as port setting, and securing sensitive data such as database credentials and API keys, keeping them out of the version control.
+
+### **express:** 
+
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It simplifies server creation, and handles routes, requests, and responses in this app. It also supports middleware to respond to HTTP requests, and has template engines to create dynamic HTML pages.
+
+### **helmet:** 
+
+Helmet is a collection of smaller middleware functions that set HTTP headers related to security. Helmet can help protect this app from some well-known web vulnerabilities by appropriately setting HTTP headers such as Content Security Policy, X-DNS-Prefetch-Control, Expect-CT, and others.
+
+### **http-errors:** 
+
+Http-errors is a utility module that creates HTTP error objects for use in Express applications. It encapsulates errors into objects with properties like status (error code) and message, facilitating systematic error handling and improving code readability in this app.
+
+### **jsonwebtoken:** 
+
+jsonwebtoken is a library that creates JSON Web Tokens (JWTs) which securely transmit information between parties as a JSON object. JWTs are used in this app to manage user authentication, by generating tokens upon login and verifying them on subsequent requests, and to maintain user sessions, minimizing constant reauthentication.
+
+### **mongoose:** 
+
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. Mongoose handles the app's interaction with MongoDB for data storage.
+
+## Dev Dependencies
+
+### **jest:** 
+
+Jest is a comprehensive JavaScript testing framework with a focus on simplicity. It supports different kinds of tests like snapshot testing, asynchronous testing, and mocking. Jest is used in this app to write and execute unit and integration tests, ensuring the functionality and reliability of the code.
+
+### **nodemon:** 
+
+Nodemon is a utility that monitors changes in your source code and automatically restarts your server. This tool helps streamline the development process by avoiding manual server restarts, leading to faster iterations during development of this app.
+
+### **supertest:** 
+
+Supertest is a high-level abstraction for testing HTTP, while still allowing you to drop down to the lower-level API provided by superagent. It pairs exceptionally well with Jest and is used in this app to simulate HTTP requests and assert their responses, testing that all endpoints are functioning as expected.
+
+<br>
+
+
+# Packages Used In Client:
+
+
+### **@emailjs/browser** and **emailjs-com:** 
+
+These libraries facilitate the sending of emails directly from JavaScript, without needing backend services. They're used in this app to handle communication via email.
+
+### **axios:** 
+
+Axios is a promise-based HTTP client for the browser and Node.js. It's used in this app to make HTTP requests to external APIs and handle responses.
+
+### **jsonwebtoken** and **jwt-decode:** 
+
+jsonwebtoken and jwt-decode are libraries related to JSON Web Tokens (JWTs). jsonwebtoken generates JWTs for secure transmission of information between parties. jwt-decode, on the other hand, allows the decoding of JWTs to retrieve the stored information. These libraries manage user authentication and maintain sessions in this app.
+
+### **react,** **react-dom,** and **react-router-dom:** 
+
+React is a JavaScript library for building user interfaces, and ReactDOM manages the rendering of React components to the DOM. react-router-dom provides the routing functionality within the React app, allowing navigation between different components. These are core dependencies for building and managing this app's user interface.
+
+### **react-calendar:** 
+
+react-calendar is a flexible calendar component for React, used in this app to manage and display dates.
+
+### **react-responsive-carousel:** 
+
+This is a component for building responsive carousels in React. It's used in this app for displaying collections of images or content in a dynamic, sliding format.
+
+### **react-star-ratings:** 
+
+A flexible star ratings component for React. It's used in this app for users to rate items and display existing ratings.
+
+## Dev Dependencies
+
+### **@babel/preset-env,** **@babel/preset-react,** **babel-jest,** and **babel-plugin-transform-import-meta:** 
+
+These are Babel dependencies. Babel is a JavaScript transpiler that converts edge JavaScript into backwards compatible versions. The presets and plugins extend Babel's capabilities, supporting the transformations of React JSX syntax (preset-react), enabling Jest to work with Babel (babel-jest), and transforming `import.meta` to `process.env` in output code (transform-import-meta).
+
+### **@testing-library/jest-dom,** **@testing-library/react,** **jest,** and **jest-date-mock:** 
+
+These dependencies relate to the Jest testing framework and the Testing Library. Jest provides a comprehensive set of testing utilities, while the Testing Library provides a set of tools for testing React components. jest-date-mock is a utility to mock JavaScript Date objects in Jest.
+
+### **@types/react** and **@types/react-dom:** 
+
+These are TypeScript definition files for React and ReactDOM. They provide TypeScript typing for these libraries, offering development-time type checking and editor features.
+
+### **@vitejs/plugin-react:** 
+
+This is a Vite plugin that offers fast Refresh and JSX support for React. Vite is a build tool and development server that offers fast, module-based development.
+
+### **eslint,** **eslint-plugin-react,** **eslint-plugin-react-hooks,** and **eslint-plugin-react-refresh:** 
+
+ESLint is a pluggable linting utility for JavaScript, with plugins providing rules and functionality for specific libraries or frameworks. These ESLint plugins provide linting for React, the React hooks API, and React Fast Refresh, ensuring consistent code style and avoiding common mistakes in this app.
+
+### **autoprefixer,** **postcss,** and **tailwindcss:** 
+
+These are styling-related dependencies. PostCSS is a tool for transforming CSS with JavaScript, Autoprefixer automatically adds vendor prefixes to CSS, and Tailwind CSS is a utility-first CSS framework for rapidly building custom designs. They are used in this app to manage, optimize, and enhance CSS styles.
+
+### **vite:** 
+
+Vite is a modern front-end build tool that provides a faster and leaner development experience for modern web projects. It's used in this app for tasks such as starting a development server, enabling Hot Module Replacement (HMR), or building the app for production.
+
+
+
 
 <a name="trello"></a>
 
@@ -567,6 +1116,15 @@ Our use of Trello for this project was instrumental in keeping us organized, pro
 <img src="./docs/trello-screenshots/trello-8.png" width="1200"><br>
 <img src="./docs/trello-screenshots/trello-9.png" width="1200"><br>
 <img src="./docs/trello-screenshots/trello-10.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-11.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-12.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-13.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-14.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-15.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-16.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-17.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-18.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-19.png" width="1200"><br>
 
 <br>
 <a name="references"></a>
