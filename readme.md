@@ -46,17 +46,17 @@
    6. [Design iterations (agile)](#wfiterations)
 6. [Trello](#trello)
 7. [Other Diagrams](#otherdiagrams)
-8. [Documentation for part B](#partB)
-   1. [Testing](#Btesting)
-      1. [Front end](#BtestingFE)
-      2. [Back end](#BtestingBE)
-         1. [Users](#BtestingBEusers)
-         2. [Bookings](#BtestingBEbookings)
-         3. [Reviews](#BtestingBEreviews)
-         4. [Vans](#BtestingBEvans)
-   2. [Planning methodology](#Bmethodology)
-   3. [Server packages and dependencies](#BBEpackages)
-   4. [Client packages and dependencies](#BFEpackages)
+8. [Documentation for part B](#partb)
+   1. [Testing](#btesting)
+      1. [Front end](#btestingfe)
+      2. [Back end](#btestingfe)
+         1. [Users](#btestingbeusers)
+         2. [Bookings](#btestingbebookings)
+         3. [Reviews](#btestingbereviews)
+         4. [Vans](#btestingbevans)
+   2. [Planning methodology](#bmethodology)
+   3. [Server packages and dependencies](#bbepackages)
+   4. [Client packages and dependencies](#bfepackages)
 8. [References](#references)
    
 <a name="purpose"></a>
@@ -562,23 +562,23 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <br>
 
-<a name="PartB"></a>
+<a name="partb"></a>
 
-<a name="Btesting"></a>
+<a name="btesting"></a>
 
 # Testing:
 
-<a name="BtestingFE"></a>
+<a name="btestingfe"></a>
 
 ## Frontend Client Testing (Development & Production)
 
 - Frontend manual testing was done for associated prominent user stories on the deployed site as well as on the development server. You can view the Frontend client testing spreadsheet at this link: [Frontend Manual Testing Spreadsheet (Google Sheets)](https://docs.google.com/spreadsheets/d/159oieAXSn6Z50X-ZQ3MQQzAj6VZBJHPUPWPGDkuA-aw/edit?usp=sharing)
 
-<a name="BtestingBE"></a>
+<a name="btestingbe"></a>
 
 ## Backend Server Testing (Development & Production)
 
-<a name="BtestingBEusers"></a>
+<a name="btestingbeusers"></a>
 
 ### USERS
 
@@ -744,7 +744,7 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <hr>
 
-<a name="BtestingBEbookings"></a>
+<a name="btestingbebookings"></a>
 
 ### BOOKINGS
 
@@ -846,7 +846,7 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <hr>
 
-<a name="BtestingBEreviews"></a>
+<a name="btestingbereviews"></a>
 
 ### REVIEWS
 
@@ -933,7 +933,7 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 <hr>
 
 
-<a name="BtestingBEvans"></a>
+<a name="btestingbevans"></a>
 
 ### VANS (Admin)
 
@@ -1015,7 +1015,7 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <img src="./docs/prod-server-testing-screenshots/prod-server-testing-26.png" width="1200"><br>
 
-<a name="Bmethodology"></a>
+<a name="bmethodology"></a>
 
 # Planning methodology used:
 
@@ -1040,7 +1040,7 @@ The layout of the sprints are as follows:
 - Week 3: Testing and tying up the loose ends
     - Week 3’s primary focus was testing, as well as going over the assignment and rubric. Week 3 intentionally had a lot of wiggle room in the case that either the backend or frontend build ran into issues resulting in it extending past their allocated one week sprint.
 
-<a name="BBEpackages"></a>
+<a name="bbepackages"></a>
 
 # Packages Used In Server:
 
@@ -1076,7 +1076,7 @@ jsonwebtoken is a library that creates JSON Web Tokens (JWTs) which securely tra
 
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. Mongoose handles the app's interaction with MongoDB for data storage.
 
-<a name="BBEdependencies"></a>
+<a name="bbedependencies"></a>
 
 ## Dev Dependencies
 
@@ -1094,7 +1094,7 @@ Supertest is a high-level abstraction for testing HTTP, while still allowing you
 
 <br>
 
-<a name="BFEpackages"></a>
+<a name="bfepackages"></a>
 
 # Packages Used In Client:
 
@@ -1128,7 +1128,7 @@ This is a component for building responsive carousels in React. It's used in thi
 A flexible star ratings component for React. It's used in this app for users to rate items and display existing ratings.
 
 
-<a name="BFEdependencies"></a>
+<a name="bfedependencies"></a>
 
 ## Dev Dependencies
 
