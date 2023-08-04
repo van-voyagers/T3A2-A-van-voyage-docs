@@ -1023,7 +1023,7 @@ You can view the Frontend client testing spreadsheet at this link:
 
 <a name="bmethodology"></a>
 
-# Planning methodology used:
+# Planning methodology used (agile):
 
 A project management methodology was implemented to keep the project on track and organised, so that we were on the same page with regards to what we were working on, and what steps we were needing to take next in the build of the application. For our project, we utilised a loose Agile methodology consisting of three short sprints and daily stand-ups. 
 
@@ -1031,19 +1031,21 @@ Building on from the submission of part A, we built on what we had planned and a
 
 Generally, the main tasks outside of configuration and setup were split between The User & Review models and controllers (Jordan), and the Van & booking models and controllers (James). Each member continued their backend builds to the frontend, working with the same models and logic that we had built in the backend. 
 
-Our build plan consisted of three sprints, each lasting one week. We would also have daily stand-ups, where we would inform the other of what we were working on at the moment, what troubles we were encountering, and what we were to work on next. We would also discuss the implementation of certain features and would either add or cut features as necessary. Code was to be reviewed upon every branch merge. A [Trello board](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a) was made with tasks related to each section within the build that needed to be covered. Tasks were assigned with JA and JB to indicate which member was to focus on that task, and importance ratings and due dates were assigned to the cards to align with the planned sprints. 
+Our build plan consisted of three sprints, each lasting one week. We would also have daily stand-ups, where we would inform the other of what we were working on at the moment, what troubles we were encountering, and what we were to work on next. We would also discuss the implementation of certain features and would either add or cut features as necessary. Code was to be reviewed upon every branch merge or implementation of a new feature. A [Trello board](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a) was made with tasks related to each section within the build that needed to be covered. Tasks were assigned with JA and JB to indicate which member was to focus on that task, and importance ratings and due dates were assigned to the cards to align with the planned sprints. 
 
 The layout of the sprints are as follows:
 
-- Week 1: The backend build
+- **Week 1: The backend build**
     - Members were allocated their models and controllers to work on, with both members conducting their own tests in postman.
     - A goal was set for routes to be setup and working as intended by the end of the week.
     - Tasks allocated in Trello.
-- Week 2: The frontend build
-    - The frontend build was done with each member having a primary focus on their models that were allocated.
+
+- **Week 2: The frontend build**
+    - The frontend build was done with each member having a primary focus on building out the pages and components that were directly related with the models that were allocated.
     - A goal was set to deploy the client early in the week.
     - A goal was set to have the production server deployed and connected to the client (running in production) by the end of the week.
-- Week 3: Testing and tying up the loose ends
+
+- **Week 3: Testing and tying up the loose ends**
     - Week 3’s primary focus was testing, as well as going over the assignment and rubric. Week 3 intentionally had a lot of wiggle room in the case that either the backend or frontend build ran into issues resulting in it extending past their allocated one week sprint.
 
 <a name="bbepackages"></a>
