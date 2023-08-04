@@ -1135,6 +1135,10 @@ This is a component for building responsive carousels in React. It's used in thi
 
 A flexible star ratings component for React. It's used in this app for users to rate items and display existing ratings.
 
+### **react-toastify:**
+
+react-toastify was used to add toast notifications in place of alerts, notifications, info or error warnings for a better user experience. 
+
 
 <a name="bfedependencies"></a>
 
