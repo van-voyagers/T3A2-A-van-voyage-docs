@@ -582,6 +582,10 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 ## Backend Server Testing (Development & Production)
 
+In order to test the Admin routes, please use the following user account which can be found in the seeds.js. <br>
+user: john@email.com <br>
+password: vanvoyage123
+
 <a name="btestingbeusers"></a>
 
 ### USERS
