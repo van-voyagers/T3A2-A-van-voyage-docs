@@ -10,18 +10,17 @@
 
 [Part A - Docs](https://github.com/van-voyagers/T3A2-A-van-voyage-docs) <br>
 [Part B - Client](https://github.com/van-voyagers/T3A2-B-van-voyage-client) <br>
-[Part B - Server](https://github.com/van-voyagers/T3A2-B-van-voyage-server)
-
-<br>
+[Part B - Server](https://github.com/van-voyagers/T3A2-B-van-voyage-server) <br><br>
+[Deployed Site](https://van-voyage.netlify.app/) <br>
+[Deployed Server](https://van-voyage-server.onrender.com/databaseDump)
 
 ### Created by:
 
 - [James Boland](https://github.com/JRBoland)
 - [Jordan Aston](https://github.com/jordanaston)
 
-<br>
-
 ### Table of contents:
+
 1. [Description of website](#purpose)
    1. [Purpose](#purpose)
    2. [Functionality / features](#functionality)
@@ -30,8 +29,8 @@
       3. [Booking / Contact System](#booking)
       4. [Admin CRUD (Postman)](#crud)
       5. [Review System](#reviews)
-   4. [Target Audience](#target)
-   5. [Tech Stack](#tech)
+   3. [Target Audience](#target)
+   4. [Tech Stack](#tech)
 2. [Dataflow Diagram](#dfd)
 3. [Application Architecture Diagram](#aad)
 4. [User Stories](#users)
@@ -57,11 +56,11 @@
    2. [Planning methodology](#bmethodology)
    3. [Server packages and dependencies](#bbepackages)
    4. [Client packages and dependencies](#bfepackages)
-8. [References](#references)
-   
+9. [References](#references)
+
 <a name="purpose"></a>
 
-## Purpose: 
+## Purpose:
 
 The purpose of this application is to facilitate the operation of a hypothetical business that rents out a small fleet of vintage, refurbished camper-vans. It aims to provide a user-friendly platform where customers can conveniently book camper-vans and view their availability in real-time. The application is designed to cover new user registration, profile management, booking logs, availability tracking, and booking confirmation. It is intended to have an inbuilt review system, fostering a transparent and interactive space for customers to share their experiences.
 
@@ -71,7 +70,7 @@ The application is required to be scalable and extensible, built with the potent
 
 <a name="functionality"></a>
 
-## Functionality & Features: 
+## Functionality & Features:
 
 <a name="onboarding"></a>
 
@@ -127,7 +126,7 @@ The application is required to be scalable and extensible, built with the potent
 
 <a name="target"></a>
 
-## Target Audience: 
+## Target Audience:
 
 The application's target audience is broad and inclusive, designed to cater to anyone with an interest in hiring vintage camper-vans. This could range from individuals planning a unique weekend getaway, families seeking an alternative vacation experience, to aficionados of vintage vehicles who relish the opportunity to experience these refurbished camper-vans.
 
@@ -137,7 +136,7 @@ While the application will be designed with ease of use in mind, it will cater t
 
 <a name="tech"></a>
 
-## Tech Stack: 
+## Tech Stack:
 
 <br>
 
@@ -167,7 +166,7 @@ While the application will be designed with ease of use in mind, it will cater t
 
 ### **Deployment:**
 
-<img src="docs/tech-stack/mongodb-atlas-logo.png" alt="MongoDB Atlas" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/heroku-logo.png" alt="Heroku" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/netlify-logo.png" alt="Netlify" width="120">
+<img src="docs/tech-stack/mongodb-atlas-logo.png" alt="MongoDB Atlas" width="120">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/render-logo.png" alt="Render" width="60">&nbsp;&nbsp;&nbsp;<img src="docs/tech-stack/netlify-logo.png" alt="Netlify" width="120">
 
 <br>
 
@@ -221,16 +220,17 @@ _User stories and personas may contain ~~strikethroughs~~, indicating revision._
 
 ### **Potential user (AKA: unregistered user, “browsing” user)**
 
-  - Melanie: Retiree / 62
-    - Not very technologically savvy. Needs a clear way to browse available vans and instructions on how to book.
-  - Jack: Student / 22
-    - Wishes to book a van so that he and his partner can go on a road trip for a weekend trip. May be planning to go onto dirt roads/camping locations so will need a suitable van.
-  - Chad & Stephanie: Couple / late 20’s
-    - Wishes to browse vans and their interior in detail so that they can find a van that fits their ‘aesthetic’.
-  - Jerry: Banker / 31
-    - Wishes to compare the pricing of hiring a van as they are tossing up between a few different rental options.
-  - Jeremiah: Arborist / 29
-    - Wants to find contact information so that they can call or email the business with further, specific questions as well as confirm the legitimacy of the site. Wants to be able to check reviews as a way of finding out more about the business from the customer’s perspective.
+- Melanie: Retiree / 62
+  - Not very technologically savvy. Needs a clear way to browse available vans and instructions on how to book.
+- Jack: Student / 22
+  - Wishes to book a van so that he and his partner can go on a road trip for a weekend trip. May be planning to go onto dirt roads/camping locations so will need a suitable van.
+- Chad & Stephanie: Couple / late 20’s
+  - Wishes to browse vans and their interior in detail so that they can find a van that fits their ‘aesthetic’.
+- Jerry: Banker / 31
+  - Wishes to compare the pricing of hiring a van as they are tossing up between a few different rental options.
+- Jeremiah: Arborist / 29
+
+  - Wants to find contact information so that they can call or email the business with further, specific questions as well as confirm the legitimacy of the site. Wants to be able to check reviews as a way of finding out more about the business from the customer’s perspective.
 
 - The following “potential user” personas were removed with the **first** iteration of revised user stories:
 
@@ -247,14 +247,15 @@ _User stories and personas may contain ~~strikethroughs~~, indicating revision._
 
 ### **Registered User (AKA: existing user, returning user)**
 
-  - Jarrod: Plumber / 32
-    - Wants to be able to compare pricing and availability of dates that are available for booking, to plan their week off from work.
-  - Jared: Sparkie / 33
-    - Wants to be able to receive confirmation of expected cost before finalising the booking.
-  - Jacquie: Teacher / 26
-    - Wants to post a review after her experience with the business
-  - John: Student / 25
-    - Wants to have some control over their profile settings and to be able to view and manage their current bookings
+- Jarrod: Plumber / 32
+  - Wants to be able to compare pricing and availability of dates that are available for booking, to plan their week off from work.
+- Jared: Sparkie / 33
+  - Wants to be able to receive confirmation of expected cost before finalising the booking.
+- Jacquie: Teacher / 26
+  - Wants to post a review after her experience with the business
+- John: Student / 25
+
+  - Wants to have some control over their profile settings and to be able to view and manage their current bookings
 
 - The following “registered user” personas were removed with the **first** iteration of revised user stories:
 
@@ -271,10 +272,10 @@ _User stories and personas may contain ~~strikethroughs~~, indicating revision._
 
 ### **Admin User (AKA: business user, vendor)**
 
-  - Vance: Business owner / 38
-    - Wants to be able to add, edit and delete vans and their details (including pricing, image, description, availability, etc.) from the fleet that is available on the site.
-  - Vanessa: Business partner / 38
-    - Wants to be able to view relevant details of all registered users, as well as the ability to delete bot/spam user accounts.
+- Vance: Business owner / 38
+  - Wants to be able to add, edit and delete vans and their details (including pricing, image, description, availability, etc.) from the fleet that is available on the site.
+- Vanessa: Business partner / 38
+  - Wants to be able to view relevant details of all registered users, as well as the ability to delete bot/spam user accounts.
 
 </details>
 
@@ -533,7 +534,6 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 
 - The reviews section on the home page was initially positioned higher up on the page. After iterating, we realized that this section was not as critical as others to be seen so prominently, so it was moved to the bottom of the page. This also gave higher visibility to other, more critical sections on the home page.
 
-
 ### **Element Design:**
 
 - Initially, there were not as many images of vans and scenic locations on the home page. After several iterations, we decided to add and enlarge these images to help users visualize the idea and concept of the business, providing a glimpse into what a getaway trip with Van Voyage might look like.
@@ -542,15 +542,13 @@ _~~As a business admin user, I want to be able to receive notice of any bookings
 
 - In the first iteration of the wireframe design, we had a sticky footer. However, given the growing amount of information on the page and the non-essential nature of the footer content, we decided to switch to a non-sticky footer. This change improved the overall user experience by ensuring the most important information was front and center.
 
-
 ### **Adding / Removing Features:**
 
 - Based on early feedback, we realised that users would want to be able to view the booking history easily. Therefore, we added a "Booking History" section to the user's account dashboard instead of it being seen via email. This also meant that we could handle the cancel booking feature here as well.
 
-- For a more intuitive experience, we decided to implement conditional rendering for the Login, Sign Up, Account, and Log Out buttons in the navigation bar. This means that the user will see "Login" and "Sign Up" buttons when they are not logged into the site. Once they log in, these buttons will switch to "Account" and "Log Out". This dynamic adjustment provides a more tailored user experience and intuitively guides users to relevant sections based on their authentication status. 
+- For a more intuitive experience, we decided to implement conditional rendering for the Login, Sign Up, Account, and Log Out buttons in the navigation bar. This means that the user will see "Login" and "Sign Up" buttons when they are not logged into the site. Once they log in, these buttons will switch to "Account" and "Log Out". This dynamic adjustment provides a more tailored user experience and intuitively guides users to relevant sections based on their authentication status.
 
 - The initial design concept included an Instagram carousel at the bottom of the homepage, which aimed to showcase real-time updates and user experiences. It was thought that this would lend authenticity and vibrancy to the website. However, during the process of user feedback and further development, it was determined that this feature wasn't contributing significantly to the overall user experience.
-
 
 <a name="otherdiagrams"></a>
 
@@ -572,9 +570,9 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 ## Frontend Client Testing (Development & Production)
 
-- Frontend manual testing was done for associated prominent user stories on the deployed site as well as on the development server. 
+- Frontend manual testing was done for associated prominent user stories on the deployed site as well as on the development server.
 
-- You can view the Frontend client testing spreadsheet at this link: 
+- You can view the Frontend client testing spreadsheet at this link:
 
 - [Frontend Manual Testing Spreadsheet (Google Sheets)](https://docs.google.com/spreadsheets/d/159oieAXSn6Z50X-ZQ3MQQzAj6VZBJHPUPWPGDkuA-aw/edit?usp=sharing)
 
@@ -938,7 +936,6 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <hr>
 
-
 <a name="btestingbevans"></a>
 
 ### VANS (Admin)
@@ -1021,64 +1018,39 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <img src="./docs/prod-server-testing-screenshots/prod-server-testing-26.png" width="1200"><br>
 
-<a name="bmethodology"></a>
-
-# Planning methodology used:
-
-A project management methodology was implemented to keep the project on track and organised, so that we were on the same page with regards to what we were working on, and what steps we were needing to take next in the build of the application. For our project, we utilised a loose Agile methodology consisting of three short sprints and daily stand-ups. 
-
-Building on from the submission of part A, we built on what we had planned and also removed some features from the MVP for the purpose of keeping the project within scope given the time frame. A Trello board was used, and tasks were allocated. For this project, we both took part in building the back end server of the site, and the frontend client, with our main tasks revolving around the models that we were working with. In this sense, we both would have experience within the majority of aspects of the build, as we were not limited to working on one end of the project. 
-
-Generally, the main tasks outside of configuration and setup were split between The User & Review models and controllers (Jordan), and the Van & booking models and controllers (James). Each member continued their backend builds to the frontend, working with the same models and logic that we had built in the backend. 
-
-Our build plan consisted of three sprints, each lasting one week. We would also have daily stand-ups, where we would inform the other of what we were working on at the moment, what troubles we were encountering, and what we were to work on next. We would also discuss the implementation of certain features and would either add or cut features as necessary. Code was to be reviewed upon every branch merge. A Trello board was made with tasks related to each section within the build that needed to be covered. Tasks were assigned with JA and JB to indicate which member was to focus on that task, and importance ratings and due dates were assigned to the cards to align with the planned sprints. 
-
-The layout of the sprints are as follows:
-
-- Week 1: The backend build
-    - Members were allocated their models and controllers to work on, with both members conducting their own tests in postman.
-    - A goal was set for routes to be setup and working as intended by the end of the week.
-    - Tasks allocated in Trello.
-- Week 2: The frontend build
-    - The frontend build was done with each member having a primary focus on their models that were allocated.
-    - A goal was set to deploy the client early in the week.
-    - A goal was set to have the production server deployed and connected to the client (running in production) by the end of the week.
-- Week 3: Testing and tying up the loose ends
-    - Week 3’s primary focus was testing, as well as going over the assignment and rubric. Week 3 intentionally had a lot of wiggle room in the case that either the backend or frontend build ran into issues resulting in it extending past their allocated one week sprint.
-
 <a name="bbepackages"></a>
 
 # Packages Used In Server:
 
-### **bcryptjs:** 
+### **bcryptjs:**
 
 A JavaScript-based implementation of bcrypt, designed for password hashing and salting. It works by converting plaintext passwords into hashed strings using a CPU-intensive hash algorithm and a random salt. It's used in this app as a secure way to store user passwords.
 
-### **cors:** 
+### **cors:**
 
 Cross-Origin Resource Sharing (CORS) is a middleware that enables many types of interactions between different domains. By setting specific headers in HTTP responses, cors allows this app's server to accept and respond to HTTP requests from different origins, providing an essential service for modern web applications that separate frontend and backend domains.
 
-### **dotenv:** 
+### **dotenv:**
 
 Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env in Node.js applications. It's used in this app to handle app configuration such as port setting, and securing sensitive data such as database credentials and API keys, keeping them out of the version control.
 
-### **express:** 
+### **express:**
 
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It simplifies server creation, and handles routes, requests, and responses in this app. It also supports middleware to respond to HTTP requests, and has template engines to create dynamic HTML pages.
 
-### **helmet:** 
+### **helmet:**
 
 Helmet is a collection of smaller middleware functions that set HTTP headers related to security. Helmet can help protect this app from some well-known web vulnerabilities by appropriately setting HTTP headers such as Content Security Policy, X-DNS-Prefetch-Control, Expect-CT, and others.
 
-### **http-errors:** 
+### **http-errors:**
 
 Http-errors is a utility module that creates HTTP error objects for use in Express applications. It encapsulates errors into objects with properties like status (error code) and message, facilitating systematic error handling and improving code readability in this app.
 
-### **jsonwebtoken:** 
+### **jsonwebtoken:**
 
 jsonwebtoken is a library that creates JSON Web Tokens (JWTs) which securely transmit information between parties as a JSON object. JWTs are used in this app to manage user authentication, by generating tokens upon login and verifying them on subsequent requests, and to maintain user sessions, minimizing constant reauthentication.
 
-### **mongoose:** 
+### **mongoose:**
 
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. Mongoose handles the app's interaction with MongoDB for data storage.
 
@@ -1086,15 +1058,15 @@ Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It ma
 
 ## Dev Dependencies
 
-### **jest:** 
+### **jest:**
 
 Jest is a comprehensive JavaScript testing framework with a focus on simplicity. It supports different kinds of tests like snapshot testing, asynchronous testing, and mocking. Jest is used in this app to write and execute unit and integration tests, ensuring the functionality and reliability of the code.
 
-### **nodemon:** 
+### **nodemon:**
 
 Nodemon is a utility that monitors changes in your source code and automatically restarts your server. This tool helps streamline the development process by avoiding manual server restarts, leading to faster iterations during development of this app.
 
-### **supertest:** 
+### **supertest:**
 
 Supertest is a high-level abstraction for testing HTTP, while still allowing you to drop down to the lower-level API provided by superagent. It pairs exceptionally well with Jest and is used in this app to simulate HTTP requests and assert their responses, testing that all endpoints are functioning as expected.
 
@@ -1104,77 +1076,96 @@ Supertest is a high-level abstraction for testing HTTP, while still allowing you
 
 # Packages Used In Client:
 
-
-### **@emailjs/browser** and **emailjs-com:** 
+### **@emailjs/browser** and **emailjs-com:**
 
 These libraries facilitate the sending of emails directly from JavaScript, without needing backend services. They're used in this app to handle communication via email.
 
-### **axios:** 
+### **axios:**
 
 Axios is a promise-based HTTP client for the browser and Node.js. It's used in this app to make HTTP requests to external APIs and handle responses.
 
-### **jsonwebtoken** and **jwt-decode:** 
+### **jsonwebtoken** and **jwt-decode:**
 
 jsonwebtoken and jwt-decode are libraries related to JSON Web Tokens (JWTs). jsonwebtoken generates JWTs for secure transmission of information between parties. jwt-decode, on the other hand, allows the decoding of JWTs to retrieve the stored information. These libraries manage user authentication and maintain sessions in this app.
 
-### **react,** **react-dom,** and **react-router-dom:** 
+### **react,** **react-dom,** and **react-router-dom:**
 
 React is a JavaScript library for building user interfaces, and ReactDOM manages the rendering of React components to the DOM. react-router-dom provides the routing functionality within the React app, allowing navigation between different components. These are core dependencies for building and managing this app's user interface.
 
-### **react-calendar:** 
+### **react-calendar:**
 
 react-calendar is a flexible calendar component for React, used in this app to manage and display dates.
 
-### **react-responsive-carousel:** 
+### **react-responsive-carousel:**
 
 This is a component for building responsive carousels in React. It's used in this app for displaying collections of images or content in a dynamic, sliding format.
 
-### **react-star-ratings:** 
+### **react-star-ratings:**
 
 A flexible star ratings component for React. It's used in this app for users to rate items and display existing ratings.
-
 
 <a name="bfedependencies"></a>
 
 ## Dev Dependencies
 
-### **@babel/preset-env,** **@babel/preset-react,** **babel-jest,** and **babel-plugin-transform-import-meta:** 
+### **@babel/preset-env,** **@babel/preset-react,** **babel-jest,** and **babel-plugin-transform-import-meta:**
 
 These are Babel dependencies. Babel is a JavaScript transpiler that converts edge JavaScript into backwards compatible versions. The presets and plugins extend Babel's capabilities, supporting the transformations of React JSX syntax (preset-react), enabling Jest to work with Babel (babel-jest), and transforming `import.meta` to `process.env` in output code (transform-import-meta).
 
-### **@testing-library/jest-dom,** **@testing-library/react,** **jest,** and **jest-date-mock:** 
+### **@testing-library/jest-dom,** **@testing-library/react,** **jest,** and **jest-date-mock:**
 
 These dependencies relate to the Jest testing framework and the Testing Library. Jest provides a comprehensive set of testing utilities, while the Testing Library provides a set of tools for testing React components. jest-date-mock is a utility to mock JavaScript Date objects in Jest.
 
-### **@types/react** and **@types/react-dom:** 
+### **@types/react** and **@types/react-dom:**
 
 These are TypeScript definition files for React and ReactDOM. They provide TypeScript typing for these libraries, offering development-time type checking and editor features.
 
-### **@vitejs/plugin-react:** 
+### **@vitejs/plugin-react:**
 
 This is a Vite plugin that offers fast Refresh and JSX support for React. Vite is a build tool and development server that offers fast, module-based development.
 
-### **eslint,** **eslint-plugin-react,** **eslint-plugin-react-hooks,** and **eslint-plugin-react-refresh:** 
+### **eslint,** **eslint-plugin-react,** **eslint-plugin-react-hooks,** and **eslint-plugin-react-refresh:**
 
 ESLint is a pluggable linting utility for JavaScript, with plugins providing rules and functionality for specific libraries or frameworks. These ESLint plugins provide linting for React, the React hooks API, and React Fast Refresh, ensuring consistent code style and avoiding common mistakes in this app.
 
-### **autoprefixer,** **postcss,** and **tailwindcss:** 
+### **autoprefixer,** **postcss,** and **tailwindcss:**
 
 These are styling-related dependencies. PostCSS is a tool for transforming CSS with JavaScript, Autoprefixer automatically adds vendor prefixes to CSS, and Tailwind CSS is a utility-first CSS framework for rapidly building custom designs. They are used in this app to manage, optimize, and enhance CSS styles.
 
-### **vite:** 
+### **vite:**
 
 Vite is a modern front-end build tool that provides a faster and leaner development experience for modern web projects. It's used in this app for tasks such as starting a development server, enabling Hot Module Replacement (HMR), or building the app for production.
 
+<a name="bmethodology"></a>
 
+# Planning methodology used:
 
+A project management methodology was implemented to keep the project on track and organised, so that we were on the same page with regards to what we were working on, and what steps we were needing to take next in the build of the application. For our project, we utilised a loose Agile methodology consisting of three short sprints and daily stand-ups.
+
+Building on from the submission of part A, we built on what we had planned and also removed some features from the MVP for the purpose of keeping the project within scope given the time frame. A Trello board was used, and tasks were allocated. For this project, we both took part in building the back end server of the site, and the frontend client, with our main tasks revolving around the models that we were working with. In this sense, we both would have experience within the majority of aspects of the build, as we were not limited to working on one end of the project.
+
+Generally, the main tasks outside of configuration and setup were split between The User & Review models and controllers (Jordan), and the Van & booking models and controllers (James). Each member continued their backend builds to the frontend, working with the same models and logic that we had built in the backend.
+
+Our build plan consisted of three sprints, each lasting one week. We would also have daily stand-ups, where we would inform the other of what we were working on at the moment, what troubles we were encountering, and what we were to work on next. We would also discuss the implementation of certain features and would either add or cut features as necessary. Code was to be reviewed upon every branch merge. A Trello board was made with tasks related to each section within the build that needed to be covered. Tasks were assigned with JA and JB to indicate which member was to focus on that task, and importance ratings and due dates were assigned to the cards to align with the planned sprints.
+
+The layout of the sprints are as follows:
+
+- Week 1: The backend build
+  - Members were allocated their models and controllers to work on, with both members conducting their own tests in postman.
+  - A goal was set for routes to be setup and working as intended by the end of the week.
+  - Tasks allocated in Trello.
+- Week 2: The frontend build
+  - The frontend build was done with each member having a primary focus on their models that were allocated.
+  - A goal was set to deploy the client early in the week.
+  - A goal was set to have the production server deployed and connected to the client (running in production) by the end of the week.
+- Week 3: Testing and tying up the loose ends
+  - Week 3’s primary focus was testing, as well as going over the assignment and rubric. Week 3 intentionally had a lot of wiggle room in the case that either the backend or frontend build ran into issues resulting in it extending past their allocated one week sprint.
 
 <a name="trello"></a>
 
 ## Planning (Trello):
 
 ### [View Trello Board](https://trello.com/b/RtrOpaLV/ca-retro-van-hire-part-a)
-
 
 To initiate the project planning process, we first set up a Trello board to streamline our project tasks, track progress, and ensure every team member is aligned with the project's objectives. The board was divided into three main categories: To Do, Doing, and Done. These categories provided a clear and concise overview of our work progress at any given point.
 
@@ -1211,6 +1202,8 @@ Our use of Trello for this project was instrumental in keeping us organized, pro
 <img src="./docs/trello-screenshots/trello-17.png" width="1200"><br>
 <img src="./docs/trello-screenshots/trello-18.png" width="1200"><br>
 <img src="./docs/trello-screenshots/trello-19.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-20.png" width="1200"><br>
+<img src="./docs/trello-screenshots/trello-21.png" width="1200"><br>
 
 <br>
 <a name="references"></a>
@@ -1223,11 +1216,10 @@ Our use of Trello for this project was instrumental in keeping us organized, pro
 
 Diagrams were made with: [Lucid](https://lucid.app/documents#/documents?folder_id=recent), [Canva](https://www.canva.com/), and [draw.io](https://app.diagrams.net/)
 
-Facebook, Instagram, Burger Menu and Live Chat Icons created at: [Flaticon](https://www.flaticon.com/) 
+Facebook, Instagram, Burger Menu and Live Chat Icons created at: [Flaticon](https://www.flaticon.com/)
 
 Van Voyage logo created with: [Looka](https://looka.com/)
 
 Free to use images taken from: [Unsplash](https://www.canva.com/), [Pexels](https://www.pexels.com/)
 
 Van images from: [Camplify](https://www.camplify.com.au)
-
