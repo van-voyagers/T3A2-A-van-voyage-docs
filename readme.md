@@ -1018,30 +1018,6 @@ _An Entity Relationship Diagram (ERD) was made to further understand the relatio
 
 <img src="./docs/prod-server-testing-screenshots/prod-server-testing-26.png" width="1200"><br>
 
-<a name="bmethodology"></a>
-
-# Planning methodology used:
-
-A project management methodology was implemented to keep the project on track and organised, so that we were on the same page with regards to what we were working on, and what steps we were needing to take next in the build of the application. For our project, we utilised a loose Agile methodology consisting of three short sprints and daily stand-ups. 
-
-Building on from the submission of part A, we built on what we had planned and also removed some features from the MVP for the purpose of keeping the project within scope given the time frame. A Trello board was used, and tasks were allocated. For this project, we both took part in building the back end server of the site, and the frontend client, with our main tasks revolving around the models that we were working with. In this sense, we both would have experience within the majority of aspects of the build, as we were not limited to working on one end of the project. 
-
-Generally, the main tasks outside of configuration and setup were split between The User & Review models and controllers (Jordan), and the Van & booking models and controllers (James). Each member continued their backend builds to the frontend, working with the same models and logic that we had built in the backend. 
-
-Our build plan consisted of three sprints, each lasting one week. We would also have daily stand-ups, where we would inform the other of what we were working on at the moment, what troubles we were encountering, and what we were to work on next. We would also discuss the implementation of certain features and would either add or cut features as necessary. Code was to be reviewed upon every branch merge. A Trello board was made with tasks related to each section within the build that needed to be covered. Tasks were assigned with JA and JB to indicate which member was to focus on that task, and importance ratings and due dates were assigned to the cards to align with the planned sprints. 
-
-The layout of the sprints are as follows:
-
-- Week 1: The backend build
-    - Members were allocated their models and controllers to work on, with both members conducting their own tests in postman.
-    - A goal was set for routes to be setup and working as intended by the end of the week.
-    - Tasks allocated in Trello.
-- Week 2: The frontend build
-    - The frontend build was done with each member having a primary focus on their models that were allocated.
-    - A goal was set to deploy the client early in the week.
-    - A goal was set to have the production server deployed and connected to the client (running in production) by the end of the week.
-- Week 3: Testing and tying up the loose ends
-    - Week 3’s primary focus was testing, as well as going over the assignment and rubric. Week 3 intentionally had a lot of wiggle room in the case that either the backend or frontend build ran into issues resulting in it extending past their allocated one week sprint.
 
 <a name="bbepackages"></a>
 
